@@ -1,0 +1,157 @@
+@import "compass", "compass/reset", "compass/css3/font-face", "media-queries", "compass/css3/background-size", "compass/css3/border-radius", "compass/css3/transition";
+
+//@include font-face("???", font-files("???.ttf"));
+
+// ------------------------------------------------------------------------------------------------------------- SPRITES
+@import "compass/utilities/sprites";
+$icons-layout: vertical;
+$icons-spacing: 10px;
+$icons-sprite-dimensions: true;
+@import "icons/*.png";
+@include all-icons-sprites;
+// ---------------------------------------------------------------------------------------------------------------------
+
+@mixin transition($time) {
+  -webkit-transition: all ease-in-out $time;
+  -moz-transition: all ease-in-out $time;
+  -o-transition: all ease-in-out $time;
+  transition: all ease-in-out $time;
+}
+
+// -------------------------------------------------------------------------------------------------------------- GLOBAL
+.no-margin {margin: 0 !important}
+.no-gutter > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+.left {float: left;}
+.right {float: right;}
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+// ------------------------------------------------------------------------------------------------------------- SIDEBAR
+
+#bg_photo {
+  background-image: url(../images/bg_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.logo_img {
+  margin-top: 80px;
+
+}
+
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+#menu {
+  padding-top: 122px;
+  padding-bottom: 90px;
+  margin-left: 30px;
+  li {
+    overflow:hidden;
+    padding-bottom:4px;
+    text-align: center;
+    a {
+      font-size: 26px;
+      line-height: 50px;
+      color: #fff;
+      background: #000;
+      text-decoration: none;
+      position: relative;
+      letter-spacing: 1px;
+      cursor: pointer;
+      @include transition(.4s);
+      &:hover {
+        background-color: #ffffff;
+        color: #000000;
+        @include transition(.3s);
+      }
+      &.active {
+        color:#000;
+      }
+    }
+  }
+}
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+.wrapper {max-width:100%; overflow-y: hidden;}
+
+.wrapper .scrollable {overflow-y: scroll;}
+
+#portfolio_container {
+  .col-md-9 {
+    max-width: 74%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.90);
+    padding: 50px 25px 25px 10px;
+    .tab-content {
+      .scrollable {
+        overflow-y: scroll;
+        max-height: 670px;
+      }
+      figure {
+        padding-bottom:0px;
+      }
+    }
+    .portfolio_nav {
+      padding-top:15px;
+      .selected {
+        a {
+          color:#000;
+          background-color: #fff;
+        }
+      }
+      li {
+      line-height: 34px;
+      padding-bottom: 2px;
+        a {
+          position:relative;
+          font-size:14px;
+          letter-spacing:2px;
+          text-transform:uppercase;
+          text-decoration:none;
+          height:28px;
+          line-height:26px;
+          padding: 1px 39px 0 9px;
+          color:#fff;
+          background:#000;
+          display:inline-block;
+          @include transition(.3s);
+          &:hover {
+            background-color: #ffffff;
+            color: #000000;
+            @include transition(.1s);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
