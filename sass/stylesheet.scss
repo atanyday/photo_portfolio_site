@@ -9,6 +9,27 @@
   transition: all ease-in-out $time;
 }
 
+@mixin change-large-screen {
+  @media only screen and (max-width: 1161px) {
+    @content;
+  }
+}
+@mixin change-small-screen {
+  @media only screen and (max-width: 991px) {
+    @content;
+  }
+}
+@mixin change-extra-small-screen {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+}
+@mixin change-mobile-screen {
+  @media only screen and (max-width: 480px) {
+    @content;
+  }
+}
+
 .list_style {
   color: #d0d0d0;
   font-weight: 500;
@@ -53,6 +74,13 @@ a {
   }
 }
 
+.active {
+  background-color: #ffffff;
+  color: #000000;
+  @include transition(.1s);
+  width: 100%;
+}
+
 // ------------------------------------------------------------------------------------------------------------- SIDEBAR
 
 #bg_photo {
@@ -60,10 +88,13 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+  background-attachment: local;
 }
 .logo_img {
   margin-top: 80px;
-
+  @include change-large-screen {
+    max-width: 90%;
+  }
 }
 
 /* make sidebar nav vertical */
@@ -89,6 +120,11 @@ a {
   padding-top: 122px;
   padding-bottom: 90px;
   margin-left: 30px;
+  @include change-small-screen {
+    margin-left: 0px;
+    padding-bottom: 140px;
+  }
+
   li {
     overflow:hidden;
     padding-bottom:4px;
@@ -108,8 +144,8 @@ a {
         color: #000000;
         @include transition(.3s);
       }
-      &.active {
-        color:#000;
+      @include change-small-screen {
+        font-size: 20px;
       }
     }
   }
@@ -144,15 +180,8 @@ a {
         }
       }
     }
-    .portfolio_nav {
+    #portfolio_nav {
       padding-top:15px;
-      .selected {
-        a {
-          background-color: #ffffff;
-          color: #000000;
-          width: 100%;
-        }
-      }
       li {
       line-height: 34px;
       padding-bottom: 2px;
@@ -169,7 +198,8 @@ a {
           display:inline-block;
           width: 100%;
           @include transition(.3s);
-          &:hover {
+          &:hover,
+          &.active {
             background-color: #ffffff;
             color: #000000;
             @include transition(.1s);
@@ -208,6 +238,9 @@ a {
   p {
     padding-top: 50px;
     padding-bottom: 220px;
+    @include change-small-screen {
+      padding-bottom: 150px;
+    }
   }
 }
 
@@ -221,6 +254,9 @@ a {
   #contacts_img_section {
     margin-top: 30px;
     padding-bottom: 310px;
+    @include change-small-screen {
+      padding-bottom: 170px;
+    }
     img {
       padding: 0px 25px 25px 0px;
     }
