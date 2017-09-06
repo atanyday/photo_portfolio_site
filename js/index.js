@@ -1,35 +1,35 @@
+// ---------------------------------------------------------------------------------------------------------- CONTAINERS
 var portfolio_container = document.getElementById("portfolio_container");
 var price_container = document.getElementById("price_container");
 var contacts_container = document.getElementById("contacts_container");
 var address_container = document.getElementById("address_container");
 
+var side_bar_elements = [portfolio_container, price_container, contacts_container, address_container];
+
+function showOnly(element_to_show, group){
+
+    group.forEach(function(element_to_hide){
+        if (element_to_hide != element_to_show){
+            $(element_to_hide).hide();
+        }
+    });
+
+
+    $(element_to_show).show(500);
+}
 
 $("#portfolio_link").click(function(){
-    $(portfolio_container).show(500);
-    $(price_container).hide();
-    $(contacts_container).hide();
-    $(address_container).hide();
+    showOnly(portfolio_container, side_bar_elements);
 });
 $("#price_link").click(function(){
-    $(portfolio_container).hide();
-    $(price_container).show(500);
-    $(contacts_container).hide();
-    $(address_container).hide();
+    showOnly(price_container, side_bar_elements);
 });
 $("#contacts_link").click(function(){
-    $(portfolio_container).hide();
-    $(price_container).hide();
-    $(contacts_container).show(500);
-    $(address_container).hide();
+    showOnly(contacts_container, side_bar_elements);
 });
 $("#address_link").click(function(){
-    $(portfolio_container).hide();
-    $(price_container).hide();
-    $(contacts_container).hide();
-    $(address_container).show(500);
+    showOnly(address_container, side_bar_elements);
 });
-
-
 
 // ------------------------------------------------------------------------------------------------- PORTFOLIO ANIMATION
 var plener = document.getElementById("plener");
@@ -38,49 +38,24 @@ var report = document.getElementById("report");
 var world = document.getElementById("world");
 var things = document.getElementById("things");
 
-$("#plener_link").click(function(){
-    $(plener).show(500);
-    $(studio).hide();
-    $(report).hide();
-    $(world).hide();
-    $(things).hide();
+var portfolio_elements = [plener, studio, report, world, things];
 
-    //$(studio).animate({opacity: 0}, 1000, ease, null);
-    //$(plener).animate({opacity: 1}, 1000, ease, null);
+
+$("#plener_link").click(function(){
+    showOnly(plener, portfolio_elements);
 });
 
 $("#studio_link").click(function(){
-    $(plener).hide();
-    $(studio).show(500);
-    $(report).hide();
-    $(world).hide();
-    $(things).hide();
-
-    //$(plener).animate({opacity: 0}, 1000, ease, function(){
-    //    $(plener).hide();
-    //});
-    //$(studio).animate({opacity: 1}, 1000, ease, null);
+    showOnly(studio, portfolio_elements);
 });
 $("#report_link").click(function(){
-    $(studio).hide();
-    $(plener).hide();
-    $(report).show(500);
-    $(world).hide();
-    $(things).hide();
+    showOnly(report, portfolio_elements);
 });
 $("#world_link").click(function(){
-    $(studio).hide();
-    $(plener).hide();
-    $(report).hide();
-    $(world).show(500);
-    $(things).hide();
+    showOnly(world, portfolio_elements);
 });
 $("#things_link").click(function(){
-    $(studio).hide();
-    $(plener).hide();
-    $(report).hide();
-    $(world).hide();
-    $(things).show(500);
+    showOnly(things, portfolio_elements);
 });
 
 // ---------------------------------------------------------------------------------------------------------------------
