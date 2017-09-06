@@ -2,15 +2,6 @@
 
 //@include font-face("???", font-files("???.ttf"));
 
-// ------------------------------------------------------------------------------------------------------------- SPRITES
-@import "compass/utilities/sprites";
-$icons-layout: vertical;
-$icons-spacing: 10px;
-$icons-sprite-dimensions: true;
-@import "icons/*.png";
-@include all-icons-sprites;
-// ---------------------------------------------------------------------------------------------------------------------
-
 @mixin transition($time) {
   -webkit-transition: all ease-in-out $time;
   -moz-transition: all ease-in-out $time;
@@ -58,6 +49,7 @@ a {
     margin-bottom: 20px;
     background: rgba(0, 0, 0, 0.90);
     padding: 50px 25px 25px 10px;
+    color: #797979;
   }
 }
 
@@ -191,8 +183,10 @@ a {
 
 // ----------------------------------------------------------------------------------------------------- PRICE CONTAINER
 #price_container {
-  color: #797979;
-  font-size: 17px;
+  font-size: 18px;
+  .col-md-9 {
+    padding-left: 25px;
+  }
   ul {
     text-align: center;
     line-height: 22px;
@@ -206,12 +200,50 @@ a {
       font-size: 20px;
       padding-bottom: 10px;
     }
+    .list_result {
+      text-align: left;
+      padding-top: 15px;
+    }
   }
   p {
     padding-top: 50px;
-    padding-bottom: 260px;
+    padding-bottom: 245px;
   }
 }
+
+// -------------------------------------------------------------------------------------------------- CONTACTS CONTAINER
+#contacts_container {
+  line-height: 22px;
+  font-size: 18px;
+  .col-md-9 {
+    padding-left: 25px;
+  }
+  #contacts_img_section {
+    margin-top: 30px;
+    padding-bottom: 310px; 
+    img {
+      padding: 0px 25px 25px 0px;
+    }
+    p {
+      padding-bottom: 20px;
+    }
+  }
+  .mail_text {
+    text-align: center;
+    max-width: 200px;
+    a {
+      color: #d0d0d0;
+      display: block;
+      @include transition(.3s);
+      &:hover {
+        color: #000;
+        background-color: #fff;
+        @include transition(.1s);
+      }
+    }
+  }
+}
+
 
 
 
