@@ -46,10 +46,10 @@
                         </div>
                         <div class="navbar-collapse collapse sidebar-navbar-collapse">
                           <ul class="nav navbar-nav" id="menu">
-                            <li class="active"><a href="#">Портфолио</a></li>
-                            <li><a href="#">Услуги и цены</a></li>
-                            <li><a href="#">Контакты</a></li>
-                            <li><a href="#">Студии</a></li>
+                            <li class="active"><a id="portfolio_link" href="#portfolio_container">Портфолио</a></li>
+                            <li><a id="price_link" href="#price_container">Услуги и цены</a></li>
+                            <li><a id="contacts_link" href="#contacts_container">Контакты</a></li>
+                            <li><a id="address_link" href="#address_container">Студии</a></li>
                           </ul>
                         </div>
                       </div>
@@ -57,22 +57,23 @@
                     <!-- ------------------------------------------------------------------------------ /end sidebar -->
                 </div>
 
+              <!-- ----------------------------------------------------------------------------- PORTFOLIO CONTAINER -->
               <div id="portfolio_container">
                 <div class="col-md-9">
 
                   <div class="col-md-2">
                     <ul class="portfolio_nav">
-                      <li class="selected"><a href="#Plener"><span></span><strong>Пленер</strong></a></li>
-                      <li><a href="#Studios"><span></span><strong>Студия</strong></a></li>
-                      <li><a href="#Report"><span></span><strong>Репортаж</strong></a></li>
-                      <li><a href="#World"><span></span><strong>Мир</strong></a></li>
-                      <li><a href="#Things"><span></span><strong>Предметка</strong></a></li>
+                      <li class="selected"><a id="plener_link" href="#plener"><span></span><strong>Пленер</strong></a></li>
+                      <li><a id="studio_link" href="#studio"><span></span><strong>Студия</strong></a></li>
+                      <li><a id="report_link" href="#report"><span></span><strong>Репортаж</strong></a></li>
+                      <li><a id="world_link" href="#world"><span></span><strong>Мир</strong></a></li>
+                      <li><a id="things_link" href="#things"><span></span><strong>Предметка</strong></a></li>
                     </ul>
                   </div>
 
-                  <div class="col-md-10">
+                <div class="col-md-10">
                     <!-- -------------------------------------------------------------------------------------- PLENER -->
-                  <div class="tab-content" id="Plener">
+                  <div class="tab-content" id="plener">
                     <div class="scrollable">
                       <div class="wrapper">
                         <figure class="left"><a href="photo/plener/p_big_001.jpg"><img src="photo/plener/p_pre_001.jpg" alt=""></a></figure>
@@ -172,131 +173,214 @@
                   </div>
 
 
+                <div class="col-md-10">
                   <!-- -------------------------------------------------------------------------------------- STUDIO -->
-                  <!--<div class="tab-content" id="Studios">-->
-                    <!--&lt;!&ndash;<h2>Студия</h2>&ndash;&gt;-->
-                    <!--<div class="scrollable">-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_001.jpg"><img src="photo/studios/s_pre_001.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_004.jpg"><img src="photo/studios/s_pre_004.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_005.jpg"><img src="photo/studios/s_pre_005.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_006.jpg"><img src="photo/studios/s_pre_006.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_007.jpg"><img src="photo/studios/s_pre_007.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_008.jpg"><img src="photo/studios/s_pre_008.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_009.jpg"><img src="photo/studios/s_pre_009.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_010.jpg"><img src="photo/studios/s_pre_010.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_011.jpg"><img src="photo/studios/s_pre_011.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_012.jpg"><img src="photo/studios/s_pre_012.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_013.jpg"><img src="photo/studios/s_pre_013.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_014.jpg"><img src="photo/studios/s_pre_014.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_015.jpg"><img src="photo/studios/s_pre_015.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/studios/s_big_016.jpg"><img src="photo/studios/s_pre_016.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                    <!--</div>-->
-                  <!--</div>-->
+                  <div class="tab-content" id="studio">
+                    <!--<h2>Студия</h2>-->
+                    <div class="scrollable">
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/studios/s_big_001.jpg"><img src="photo/studios/s_pre_001.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/studios/s_big_004.jpg"><img src="photo/studios/s_pre_004.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/studios/s_big_005.jpg"><img src="photo/studios/s_pre_005.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/studios/s_big_006.jpg"><img src="photo/studios/s_pre_006.jpg" alt=""></a></figure>
+                      </div>
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/studios/s_big_007.jpg"><img src="photo/studios/s_pre_007.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/studios/s_big_008.jpg"><img src="photo/studios/s_pre_008.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/studios/s_big_009.jpg"><img src="photo/studios/s_pre_009.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/studios/s_big_010.jpg"><img src="photo/studios/s_pre_010.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/studios/s_big_011.jpg"><img src="photo/studios/s_pre_011.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/studios/s_big_012.jpg"><img src="photo/studios/s_pre_012.jpg" alt=""></a></figure>
+                      </div>
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/studios/s_big_013.jpg"><img src="photo/studios/s_pre_013.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/studios/s_big_014.jpg"><img src="photo/studios/s_pre_014.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/studios/s_big_015.jpg"><img src="photo/studios/s_pre_015.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/studios/s_big_016.jpg"><img src="photo/studios/s_pre_016.jpg" alt=""></a></figure>
+                      </div>
+                    </div>
+                  </div>
                   <!-- --------------------------------------------------------------------------------- /end studio -->
+                </div>
 
+                <div class="col-md-10">
                   <!-- --------------------------------------------------------------------------------------- WORLD -->
-                  <!--<div class="tab-content" id="World">-->
-                    <!--&lt;!&ndash;<h2>Окружающий нас мир</h2>&ndash;&gt;-->
-                    <!--<div class="scrollable">-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/world/w_big_001.jpg"><img src="photo/world/w_pre_001.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_002.jpg"><img src="photo/world/w_pre_002.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_003.jpg"><img src="photo/world/w_pre_003.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_004.jpg"><img src="photo/world/w_pre_004.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/world/w_big_005.jpg"><img src="photo/world/w_pre_005.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_006.jpg"><img src="photo/world/w_pre_006.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_007.jpg"><img src="photo/world/w_pre_007.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_008.jpg"><img src="photo/world/w_pre_008.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/world/w_big_009.jpg"><img src="photo/world/w_pre_009.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_010.jpg"><img src="photo/world/w_pre_010.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_011.jpg"><img src="photo/world/w_pre_011.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_012.jpg"><img src="photo/world/w_pre_012.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/world/w_big_014.jpg"><img src="photo/world/w_pre_014.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_013.jpg"><img src="photo/world/w_pre_013.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_015.jpg"><img src="photo/world/w_pre_015.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/world/w_big_016.jpg"><img src="photo/world/w_pre_016.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/world/w_big_017.jpg"><img src="photo/world/w_pre_017.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                    <!--</div>-->
-                  <!--</div>-->
+                  <div class="tab-content" id="world">
+                    <!--<h2>Окружающий нас мир</h2>-->
+                    <div class="scrollable">
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/world/w_big_001.jpg"><img src="photo/world/w_pre_001.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_002.jpg"><img src="photo/world/w_pre_002.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_003.jpg"><img src="photo/world/w_pre_003.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_004.jpg"><img src="photo/world/w_pre_004.jpg" alt=""></a></figure>
+                      </div>
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/world/w_big_005.jpg"><img src="photo/world/w_pre_005.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_006.jpg"><img src="photo/world/w_pre_006.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_007.jpg"><img src="photo/world/w_pre_007.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_008.jpg"><img src="photo/world/w_pre_008.jpg" alt=""></a></figure>
+                      </div>
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/world/w_big_009.jpg"><img src="photo/world/w_pre_009.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_010.jpg"><img src="photo/world/w_pre_010.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_011.jpg"><img src="photo/world/w_pre_011.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_012.jpg"><img src="photo/world/w_pre_012.jpg" alt=""></a></figure>
+                      </div>
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/world/w_big_014.jpg"><img src="photo/world/w_pre_014.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_013.jpg"><img src="photo/world/w_pre_013.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_015.jpg"><img src="photo/world/w_pre_015.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/world/w_big_016.jpg"><img src="photo/world/w_pre_016.jpg" alt=""></a></figure>
+                      </div>
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/world/w_big_017.jpg"><img src="photo/world/w_pre_017.jpg" alt=""></a></figure>
+                      </div>
+                    </div>
+                  </div>
                   <!-- ---------------------------------------------------------------------------------- /end world -->
+                </div>
 
+                <div class="col-md-10">
                   <!-- -------------------------------------------------------------------------------------- REPORT -->
-                  <!--<div class="tab-content" id="Report">-->
-                    <!--&lt;!&ndash;<h2>Репортаж</h2>&ndash;&gt;-->
-                    <!--<div class="scrollable">-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/report/r_big_001.jpg"><img src="photo/report/r_pre_001.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/report/r_big_002.jpg"><img src="photo/report/r_pre_002.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/report/r_big_003.jpg"><img src="photo/report/r_pre_003.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/report/r_big_004.jpg"><img src="photo/report/r_pre_004.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/report/r_big_005.jpg"><img src="photo/report/r_pre_005.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/report/r_big_006.jpg"><img src="photo/report/r_pre_006.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/report/r_big_007.jpg"><img src="photo/report/r_pre_007.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/report/r_big_008.jpg"><img src="photo/report/r_pre_008.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/report/r_big_009.jpg"><img src="photo/report/r_pre_009.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/report/r_big_010.jpg"><img src="photo/report/r_pre_010.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/report/r_big_011.jpg"><img src="photo/report/r_pre_011.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/report/r_big_012.jpg"><img src="photo/report/r_pre_012.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/report/r_big_013.jpg"><img src="photo/report/r_pre_013.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/report/r_big_014.jpg"><img src="photo/report/r_pre_014.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/report/r_big_015.jpg"><img src="photo/report/r_pre_015.jpg" alt=""></a></figure>-->
-
-                      <!--</div>-->
-                    <!--</div>-->
-                  <!--</div>-->
+                  <div class="tab-content" id="report">
+                    <!--<h2>Репортаж</h2>-->
+                    <div class="scrollable">
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/report/r_big_001.jpg"><img src="photo/report/r_pre_001.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/report/r_big_002.jpg"><img src="photo/report/r_pre_002.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/report/r_big_003.jpg"><img src="photo/report/r_pre_003.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/report/r_big_004.jpg"><img src="photo/report/r_pre_004.jpg" alt=""></a></figure>
+                      </div>
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/report/r_big_005.jpg"><img src="photo/report/r_pre_005.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/report/r_big_006.jpg"><img src="photo/report/r_pre_006.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/report/r_big_007.jpg"><img src="photo/report/r_pre_007.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/report/r_big_008.jpg"><img src="photo/report/r_pre_008.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/report/r_big_009.jpg"><img src="photo/report/r_pre_009.jpg" alt=""></a></figure>
+                      </div>
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/report/r_big_010.jpg"><img src="photo/report/r_pre_010.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/report/r_big_011.jpg"><img src="photo/report/r_pre_011.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/report/r_big_012.jpg"><img src="photo/report/r_pre_012.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/report/r_big_013.jpg"><img src="photo/report/r_pre_013.jpg" alt=""></a></figure>
+                      </div>
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/report/r_big_014.jpg"><img src="photo/report/r_pre_014.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/report/r_big_015.jpg"><img src="photo/report/r_pre_015.jpg" alt=""></a></figure>
+                      </div>
+                    </div>
+                  </div>
                   <!-- --------------------------------------------------------------------------------- /end report -->
+                </div>
 
+                <div class="col-md-10">
                   <!-- -------------------------------------------------------------------------------------- THINGS -->
-                  <!--<div class="tab-content" id="Things">-->
-                    <!--&lt;!&ndash;<h2>Предметка</h2>&ndash;&gt;-->
-                    <!--<div class="scrollable">-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/things/t_big_001.jpg"><img src="photo/things/t_pre_001.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/things/t_big_002.jpg"><img src="photo/things/t_pre_002.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/things/t_big_003.jpg"><img src="photo/things/t_pre_003.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/things/t_big_004.jpg"><img src="photo/things/t_pre_004.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/things/t_big_005.jpg"><img src="photo/things/t_pre_005.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/things/t_big_006.jpg"><img src="photo/things/t_pre_006.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/things/t_big_007.jpg"><img src="photo/things/t_pre_007.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/things/t_big_008.jpg"><img src="photo/things/t_pre_008.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/things/t_big_009.jpg"><img src="photo/things/t_pre_009.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                      <!--<div class="wrapper">-->
-                        <!--<figure class="left"><a href="photo/things/t_big_010.jpg"><img src="photo/things/t_pre_010.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/things/t_big_011.jpg"><img src="photo/things/t_pre_011.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/things/t_big_012.jpg"><img src="photo/things/t_pre_012.jpg" alt=""></a></figure>-->
-                        <!--<figure class="left"><a href="photo/things/t_big_013.jpg"><img src="photo/things/t_pre_013.jpg" alt=""></a></figure>-->
-                      <!--</div>-->
-                    <!--</div>-->
-                  <!--</div>-->
+                  <div class="tab-content" id="things">
+                    <!--<h2>Предметка</h2>-->
+                    <div class="scrollable">
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/things/t_big_001.jpg"><img src="photo/things/t_pre_001.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/things/t_big_002.jpg"><img src="photo/things/t_pre_002.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/things/t_big_003.jpg"><img src="photo/things/t_pre_003.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/things/t_big_004.jpg"><img src="photo/things/t_pre_004.jpg" alt=""></a></figure>
+                      </div>
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/things/t_big_005.jpg"><img src="photo/things/t_pre_005.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/things/t_big_006.jpg"><img src="photo/things/t_pre_006.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/things/t_big_007.jpg"><img src="photo/things/t_pre_007.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/things/t_big_008.jpg"><img src="photo/things/t_pre_008.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/things/t_big_009.jpg"><img src="photo/things/t_pre_009.jpg" alt=""></a></figure>
+                      </div>
+                      <div class="wrapper">
+                        <figure class="left"><a href="photo/things/t_big_010.jpg"><img src="photo/things/t_pre_010.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/things/t_big_011.jpg"><img src="photo/things/t_pre_011.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/things/t_big_012.jpg"><img src="photo/things/t_pre_012.jpg" alt=""></a></figure>
+                        <figure class="left"><a href="photo/things/t_big_013.jpg"><img src="photo/things/t_pre_013.jpg" alt=""></a></figure>
+                      </div>
+                    </div>
+                  </div>
                   <!-- --------------------------------------------------------------------------------- /end things -->
                 </div>
               </div>
             </div>
+            <!-- -------------------------------------------------------------------------- /end portfolio container -->
+
+
+
+
+
+            <!-- ----------------------------------------------------------------------------------- PRICE CONTAINER -->
+            <div id="price_container">
+              <div class="col-md-9">
+                  <div class="col-md-6">
+                    <ul>
+                      <li class="list_title">Индивидуальная фотосессия</li>
+                      <li class="list_title_2">На улице:</li>
+                      <li>&bull; в пределах Москвы – 1.500 р/ч</li>
+                      <li>&bull; за пределами Москвы – 2.000 р/ч</li>
+
+                      <li class="list_title_2">В студии:</li>
+                      <li>&bull; 2.000 р/ч</li>
+                      <li>&bull; аренда студии оплачивается клиентом отдельно</li>
+                      <li>В результате вы получаете до 30 снимков, прошедших цвето и эскпокоррекцию + некоторое количество в авторской обработке.</li>
+                    </ul>
+                  </div>
+
+                  <div class="col-md-6">
+                    <ul>
+                      <li class="list_title">Групповая фотосессия</li>
+                      <li class="list_title_2">На улице:</li>
+                      <li>&bull; в пределах Москвы – 2.000 р/ч</li>
+                      <li>&bull; за пределами Москвы – 2.500 р/ч</li>
+
+                      <li class="list_title_2">В студии:</li>
+                      <li>&bull; 2.500 р/ч</li>
+                      <li>&bull; аренда студии оплачивается клиентом отдельно</li>
+                      <li>В результате вы получаете до 50 снимков, прошедших цвето и эскпокоррекцию + некоторое количество в авторской обработке.</li>
+                    </ul>
+                  </div>
+
+                <div class="col-md-12">
+                  <p>
+                    Обработка дополнительных фотографий от 100 р/фото (в зависимости от сложности ретуши).
+                    Оплата производится в день съёмки, по окончанию работы. Фотографии Вы сможете получить через 3-4 недели на электронную почту.
+                    За ускоренную обработку в течение 2-х недель + 50% от стоимости заказа.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------ /end price container -->
+
+
+
+
+
+
+            <!-- -------------------------------------------------------------------------------- CONTACTS CONTAINER -->
+            <div id="contacts_container">
+              <div class="col-md-9">
+                  <p>bla bla</p>
+              </div>
+            </div>
+            <!-- --------------------------------------------------------------------------- /end contacts container -->
+
+
+
+
+
+
+            <!-- -------------------------------------------------------------------------------- CONTACTS CONTAINER -->
+            <div id="address_container">
+              <div class="col-md-9">
+                  <p>bla bla</p>
+              </div>
+            </div>
+            <!-- --------------------------------------------------------------------------- /end contacts container -->
+
+
+
           </div>
+        </div>
 
 
     <!-- jQuery -->

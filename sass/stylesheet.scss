@@ -18,6 +18,12 @@ $icons-sprite-dimensions: true;
   transition: all ease-in-out $time;
 }
 
+.list_style {
+  color: #d0d0d0;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
 // -------------------------------------------------------------------------------------------------------------- GLOBAL
 .no-margin {margin: 0 !important}
 .no-gutter > [class*='col-'] {
@@ -31,6 +37,30 @@ a {
     text-decoration: none;
   }
 }
+
+#portfolio_container,
+#price_container,
+#contacts_container,
+#address_container,
+#studio,
+#report,
+#world,
+#things {
+  display: none;
+}
+
+#price_container,
+#contacts_container,
+#address_container {
+  .col-md-9 {
+    max-width: 74%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.90);
+    padding: 50px 25px 25px 10px;
+  }
+}
+
 // ------------------------------------------------------------------------------------------------------------- SIDEBAR
 
 #bg_photo {
@@ -97,7 +127,7 @@ a {
   border: none;
 }
 
-// ---------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------- PORTFOLIO CONTAINER
 .wrapper {max-width:100%; overflow-y: hidden;}
 
 .wrapper .scrollable {overflow-y: scroll;}
@@ -109,15 +139,21 @@ a {
     margin-bottom: 20px;
     background: rgba(0, 0, 0, 0.90);
     padding: 50px 25px 25px 10px;
+
     .tab-content {
       .scrollable {
         overflow-y: scroll;
-        max-height: 670px;
+        max-height: 665px;
       }
       figure {
         padding-bottom:0px;
+        margin: 5px;
+        img {
+          border: 1px solid rgba(255, 255, 255, 0.51);
+        }
       }
     }
+
     .portfolio_nav {
       padding-top:15px;
       .selected {
@@ -152,6 +188,32 @@ a {
     }
   }
 }
+
+// ----------------------------------------------------------------------------------------------------- PRICE CONTAINER
+#price_container {
+  color: #797979;
+  font-size: 17px;
+  ul {
+    text-align: center;
+    line-height: 22px;
+    .list_title {
+      @extend .list_style;
+      font-size: 22px;
+      padding-top: 30px;
+    }
+    .list_title_2 {
+      @extend .list_style;
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+  }
+  p {
+    padding-top: 50px;
+    padding-bottom: 260px;
+  }
+}
+
+
 
 
 

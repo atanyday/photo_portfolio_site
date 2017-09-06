@@ -90,33 +90,63 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 73px;
 }
 
-/* line 22, ../sass/stylesheet.scss */
+/* line 21, ../sass/stylesheet.scss */
+.list_style, #price_container ul .list_title, #price_container ul .list_title_2 {
+  color: #d0d0d0;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
+/* line 28, ../sass/stylesheet.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 23, ../sass/stylesheet.scss */
+/* line 29, ../sass/stylesheet.scss */
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 27, ../sass/stylesheet.scss */
+/* line 33, ../sass/stylesheet.scss */
 .left {
   float: left;
 }
 
-/* line 28, ../sass/stylesheet.scss */
+/* line 34, ../sass/stylesheet.scss */
 .right {
   float: right;
 }
 
-/* line 30, ../sass/stylesheet.scss */
+/* line 36, ../sass/stylesheet.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 36, ../sass/stylesheet.scss */
+/* line 41, ../sass/stylesheet.scss */
+#portfolio_container,
+#price_container,
+#contacts_container,
+#address_container,
+#studio,
+#report,
+#world,
+#things {
+  display: none;
+}
+
+/* line 55, ../sass/stylesheet.scss */
+#price_container .col-md-9,
+#contacts_container .col-md-9,
+#address_container .col-md-9 {
+  max-width: 74%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 50px 25px 25px 10px;
+}
+
+/* line 66, ../sass/stylesheet.scss */
 #bg_photo {
   background-image: url(../images/bg_img.jpg);
   background-repeat: no-repeat;
@@ -124,50 +154,50 @@ a:hover {
   background-position: center top;
 }
 
-/* line 42, ../sass/stylesheet.scss */
+/* line 72, ../sass/stylesheet.scss */
 .logo_img {
   margin-top: 80px;
 }
 
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
-  /* line 49, ../sass/stylesheet.scss */
+  /* line 79, ../sass/stylesheet.scss */
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none;
   }
 
-  /* line 53, ../sass/stylesheet.scss */
+  /* line 83, ../sass/stylesheet.scss */
   .sidebar-nav .navbar ul {
     float: none;
     display: block;
   }
 
-  /* line 57, ../sass/stylesheet.scss */
+  /* line 87, ../sass/stylesheet.scss */
   .sidebar-nav .navbar li {
     float: none;
     display: block;
   }
 
-  /* line 61, ../sass/stylesheet.scss */
+  /* line 91, ../sass/stylesheet.scss */
   .sidebar-nav .navbar li a {
     padding-top: 12px;
     padding-bottom: 12px;
   }
 }
-/* line 66, ../sass/stylesheet.scss */
+/* line 96, ../sass/stylesheet.scss */
 #menu {
   padding-top: 122px;
   padding-bottom: 90px;
   margin-left: 30px;
 }
-/* line 70, ../sass/stylesheet.scss */
+/* line 100, ../sass/stylesheet.scss */
 #menu li {
   overflow: hidden;
   padding-bottom: 4px;
   text-align: center;
 }
-/* line 74, ../sass/stylesheet.scss */
+/* line 104, ../sass/stylesheet.scss */
 #menu li a {
   font-size: 26px;
   line-height: 50px;
@@ -182,7 +212,7 @@ a:hover {
   -o-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
-/* line 84, ../sass/stylesheet.scss */
+/* line 114, ../sass/stylesheet.scss */
 #menu li a:hover {
   background-color: #ffffff;
   color: #000000;
@@ -191,29 +221,29 @@ a:hover {
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 89, ../sass/stylesheet.scss */
+/* line 119, ../sass/stylesheet.scss */
 #menu li a.active {
   color: #000;
 }
 
-/* line 95, ../sass/stylesheet.scss */
+/* line 125, ../sass/stylesheet.scss */
 .navbar-default {
   background-color: transparent;
   border: none;
 }
 
-/* line 101, ../sass/stylesheet.scss */
+/* line 131, ../sass/stylesheet.scss */
 .wrapper {
   max-width: 100%;
   overflow-y: hidden;
 }
 
-/* line 103, ../sass/stylesheet.scss */
+/* line 133, ../sass/stylesheet.scss */
 .wrapper .scrollable {
   overflow-y: scroll;
 }
 
-/* line 106, ../sass/stylesheet.scss */
+/* line 136, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 {
   max-width: 74%;
   margin-top: 20px;
@@ -221,30 +251,35 @@ a:hover {
   background: rgba(0, 0, 0, 0.9);
   padding: 50px 25px 25px 10px;
 }
-/* line 113, ../sass/stylesheet.scss */
+/* line 144, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .tab-content .scrollable {
   overflow-y: scroll;
-  max-height: 670px;
+  max-height: 665px;
 }
-/* line 117, ../sass/stylesheet.scss */
+/* line 148, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .tab-content figure {
   padding-bottom: 0px;
+  margin: 5px;
 }
-/* line 121, ../sass/stylesheet.scss */
+/* line 151, ../sass/stylesheet.scss */
+#portfolio_container .col-md-9 .tab-content figure img {
+  border: 1px solid rgba(255, 255, 255, 0.51);
+}
+/* line 157, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .portfolio_nav {
   padding-top: 15px;
 }
-/* line 124, ../sass/stylesheet.scss */
+/* line 160, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .portfolio_nav .selected a {
   color: #000;
   background-color: #fff;
 }
-/* line 129, ../sass/stylesheet.scss */
+/* line 165, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .portfolio_nav li {
   line-height: 34px;
   padding-bottom: 2px;
 }
-/* line 132, ../sass/stylesheet.scss */
+/* line 168, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .portfolio_nav li a {
   position: relative;
   font-size: 14px;
@@ -262,7 +297,7 @@ a:hover {
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 145, ../sass/stylesheet.scss */
+/* line 181, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .portfolio_nav li a:hover {
   background-color: #ffffff;
   color: #000000;
@@ -270,4 +305,30 @@ a:hover {
   -moz-transition: all ease-in-out 0.1s;
   -o-transition: all ease-in-out 0.1s;
   transition: all ease-in-out 0.1s;
+}
+
+/* line 193, ../sass/stylesheet.scss */
+#price_container {
+  color: #797979;
+  font-size: 17px;
+}
+/* line 196, ../sass/stylesheet.scss */
+#price_container ul {
+  text-align: center;
+  line-height: 22px;
+}
+/* line 199, ../sass/stylesheet.scss */
+#price_container ul .list_title {
+  font-size: 22px;
+  padding-top: 30px;
+}
+/* line 204, ../sass/stylesheet.scss */
+#price_container ul .list_title_2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+/* line 210, ../sass/stylesheet.scss */
+#price_container p {
+  padding-top: 50px;
+  padding-bottom: 260px;
 }
