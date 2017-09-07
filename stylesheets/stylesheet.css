@@ -468,13 +468,27 @@ body,
   margin-bottom: 16px;
 }
 /* line 335, ../sass/stylesheet.scss */
+#mobile_body #mobile_menu .dropdown-portfolio {
+  display: none;
+  height: 0px;
+}
+/* line 338, ../sass/stylesheet.scss */
+#mobile_body #mobile_menu .dropdown-portfolio li {
+  background-color: #000;
+  margin: 0px 48px 1px 48px;
+}
+/* line 341, ../sass/stylesheet.scss */
+#mobile_body #mobile_menu .dropdown-portfolio li a {
+  font-size: 18px;
+}
+/* line 346, ../sass/stylesheet.scss */
 #mobile_body #mobile_menu li {
   padding-bottom: 4px;
   text-align: center;
 }
-/* line 338, ../sass/stylesheet.scss */
+/* line 349, ../sass/stylesheet.scss */
 #mobile_body #mobile_menu li a {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 50px;
   color: #fff;
   background: #000;
@@ -485,7 +499,7 @@ body,
   -o-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
-/* line 346, ../sass/stylesheet.scss */
+/* line 357, ../sass/stylesheet.scss */
 #mobile_body #mobile_menu li a:active {
   background-color: #ffffff;
   color: #000000;
@@ -494,57 +508,58 @@ body,
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 357, ../sass/stylesheet.scss */
+/* line 374, ../sass/stylesheet.scss */
 #mobile_body #mobile_price_container ul {
   line-height: 22px;
 }
-/* line 359, ../sass/stylesheet.scss */
+/* line 376, ../sass/stylesheet.scss */
 #mobile_body #mobile_price_container ul .list_title {
   color: #d0d0d0;
   font-size: 22px;
   padding-top: 16px;
   padding-bottom: 10px;
 }
-/* line 365, ../sass/stylesheet.scss */
+/* line 382, ../sass/stylesheet.scss */
 #mobile_body #mobile_price_container ul .list_title_2 {
   color: #d0d0d0;
   font-size: 18px;
   padding-bottom: 10px;
 }
-/* line 370, ../sass/stylesheet.scss */
+/* line 387, ../sass/stylesheet.scss */
 #mobile_body #mobile_price_container ul .list_result {
   padding-top: 16px;
 }
-/* line 374, ../sass/stylesheet.scss */
+/* line 391, ../sass/stylesheet.scss */
 #mobile_body #mobile_price_container p {
   padding-top: 30px;
   padding-bottom: 16px;
   text-align: left;
 }
-/* line 382, ../sass/stylesheet.scss */
+/* line 399, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container {
   text-align: center;
 }
-/* line 384, ../sass/stylesheet.scss */
+/* line 401, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container img {
   padding-bottom: 16px;
 }
-/* line 387, ../sass/stylesheet.scss */
+/* line 404, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container .mail_text {
   max-width: 200px;
   padding-bottom: 5px;
   margin: 0 auto;
 }
-/* line 391, ../sass/stylesheet.scss */
+/* line 408, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container .mail_text a {
   color: #d0d0d0;
   display: block;
+  text-decoration: underline;
   -webkit-transition: all ease-in-out 0.3s;
   -moz-transition: all ease-in-out 0.3s;
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 395, ../sass/stylesheet.scss */
+/* line 413, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container .mail_text a:hover {
   color: #000;
   background-color: #fff;
@@ -553,50 +568,50 @@ body,
   -o-transition: all ease-in-out 0.1s;
   transition: all ease-in-out 0.1s;
 }
-/* line 402, ../sass/stylesheet.scss */
+/* line 420, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container .quote {
   font-style: italic;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 16px;
 }
-/* line 408, ../sass/stylesheet.scss */
+/* line 426, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container p {
   text-align: left;
   padding-bottom: 16px;
 }
-/* line 415, ../sass/stylesheet.scss */
+/* line 433, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container {
   line-height: 22px;
 }
-/* line 417, ../sass/stylesheet.scss */
+/* line 435, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container h2 {
   color: #d0d0d0;
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 423, ../sass/stylesheet.scss */
+/* line 441, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container ul {
   text-align: left;
 }
-/* line 425, ../sass/stylesheet.scss */
+/* line 443, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container ul .m_studio_title {
   padding-top: 35px;
   padding-bottom: 5px;
 }
-/* line 428, ../sass/stylesheet.scss */
+/* line 446, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container ul .m_studio_title a {
   color: #d0d0d0;
   font-size: 22px;
   text-decoration: underline;
 }
-/* line 435, ../sass/stylesheet.scss */
+/* line 453, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container ul .m_tel_studio a {
   color: #4d618b;
   text-decoration: underline;
 }
-/* line 440, ../sass/stylesheet.scss */
+/* line 458, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container ul li:last-child {
   padding-bottom: 16px;
 }

@@ -332,11 +332,22 @@ body,
     display: block;
     padding-top: 0px;
     margin-bottom: 16px;
+    .dropdown-portfolio {
+      display: none;
+      height: 0px;
+      li {
+        background-color: #000;
+        margin: 0px 48px 1px 48px;
+        a {
+          font-size: 18px;
+        }
+      }
+    }
     li {
       padding-bottom:4px;
       text-align: center;
       a {
-        font-size: 22px;
+        font-size: 24px;
         line-height: 50px;
         color: #fff;
         background: #000;
@@ -350,6 +361,12 @@ body,
         }
       }
     }
+  }
+
+
+// ---------------------------------------------------------------------------------------------------- MOBILE PORTFOLIO
+  #mobile_portfolio_container {
+
   }
 
 // ------------------------------------------------------------------------------------------------------- MOBILE PRICES
@@ -391,6 +408,7 @@ body,
       a {
         color: #d0d0d0;
         display: block;
+        text-decoration: underline;
         @include transition(.3s);
         &:hover {
           color: #000;

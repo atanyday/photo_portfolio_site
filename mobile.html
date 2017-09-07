@@ -35,8 +35,19 @@
 
                   <!-- ---------------------------------------------------------------------------------- NAVIGATION -->
 
-                      <ul class="nav navbar-nav" id="mobile_menu">
-                        <li><a id="portfolio_link" href="mobile_portfolio.html">Портфолио</a></li>
+                      <ul
+                        class="nav navbar-nav"
+                        id="mobile_menu">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" id="portfolio_link" href="#">Портфолио <span class="caret"></span></a>
+                                <ul class="dropdown-portfolio">
+                                    <li><a href="#">Пленер</a></li>
+                                    <li><a href="#">Студия</a></li>
+                                    <li><a href="#">Репортаж</a></li>
+                                    <li><a href="#">Мир</a></li>
+                                    <li><a href="#">Предметка</a></li>
+                                </ul>
+                        </li>
                         <li><a id="price_link" href="mobile_prices.html">Услуги и цены</a></li>
                         <li><a id="contacts_link" href="mobile_contacts.html">Контакты</a></li>
                         <li><a id="address_link" href="mobile_address.html">Студии</a></li>
