@@ -1,3 +1,38 @@
+// ------------------------------------------------------------------------------------------------ FOLLOW LOCATION HASH
+function gotoPage(param) {
+
+    var url = window.location.hash;
+
+    if (url == "#plener") {
+        showOnly(portfolio_container, side_bar_elements);
+        showOnly(plener, portfolio_elements);
+    } if (url == "#studio") {
+        showOnly(portfolio_container, side_bar_elements);
+        showOnly(studio, portfolio_elements);
+    } if (url == "#report") {
+        showOnly(portfolio_container, side_bar_elements);
+        showOnly(report, portfolio_elements);
+    } if (url == "#world") {
+        showOnly(portfolio_container, side_bar_elements);
+        showOnly(world, portfolio_elements);
+    } if (url == "#things") {
+        showOnly(portfolio_container, side_bar_elements);
+        showOnly(things, portfolio_elements);
+
+    }
+    console.log(window.location.hash);
+}
+
+
+// ---------------------------------------------------------------------------------------------- HIGHTLIGHT ACTIVE LINK
+$(document).ready(function(){
+    $('ul li a').click(function(){
+        $('li a').removeClass("active");
+        $(this).addClass("active");
+    });
+});
+
+
 // ---------------------------------------------------------------------------------------------------------- CONTAINERS
 var portfolio_container = document.getElementById("portfolio_container");
 var price_container = document.getElementById("price_container");
@@ -41,23 +76,29 @@ var things = document.getElementById("things");
 var portfolio_elements = [plener, studio, report, world, things];
 
 
-$("#plener_link").click(function(){
-    showOnly(plener, portfolio_elements);
-});
+//$("#plener_link").click(function(){
+//    showOnly(plener, portfolio_elements);
+//});
+//
+//$("#studio_link").click(function(){
+//    showOnly(studio, portfolio_elements);
+//});
+//$("#report_link").click(function(){
+//    showOnly(report, portfolio_elements);
+//});
+//$("#world_link").click(function(){
+//    showOnly(world, portfolio_elements);
+//});
+//$("#things_link").click(function(){
+//  showOnly(things, portfolio_elements);
+//});
 
-$("#studio_link").click(function(){
-    showOnly(studio, portfolio_elements);
-});
-$("#report_link").click(function(){
-    showOnly(report, portfolio_elements);
-});
-$("#world_link").click(function(){
-    showOnly(world, portfolio_elements);
-});
-$("#things_link").click(function(){
-    showOnly(things, portfolio_elements);
-});
-
-// ---------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------ USE HASH OF THE PAGE
 
 
+window.onhashchange = gotoPage;
+
+$( document ).ready(function() {
+    gotoPage(window.location.hash);
+    //console.log( "ready!" );
+});

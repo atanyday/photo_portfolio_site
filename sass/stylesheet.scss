@@ -69,7 +69,7 @@ body,
   }
 }
 
-.active {
+.selected {
   background-color: #ffffff;
   color: #000000;
   @include transition(.1s);
@@ -304,8 +304,17 @@ body,
 #mobile_portfolio_container,
 #mobile_price_container,
 #mobile_contacts_container,
-#mobile_address_container {
-  background-color: #000;
+#mobile_address_container,
+#mobile_plener_page,
+#mobile_studio_page,
+#mobile_report_page,
+#mobile_world_page,
+#mobile_things_page {
+  background-image: url(../images/m_bg_black.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left top;
+  background-attachment: fixed;
   font-size: 18px;
   color: #8b8b8b;
   padding-left: 16px;
@@ -318,9 +327,12 @@ body,
   }
 }
 
-
 #mobile_body {
-  background-color: #ffffff;
+  background-image: url(../images/m_bg_white.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left top;
+  background-attachment: fixed;
   .mobile_logo_img {
     max-width: 90%;
     margin-bottom: 35px;
@@ -339,7 +351,13 @@ body,
         background-color: #000;
         margin: 0px 48px 1px 48px;
         a {
-          font-size: 18px;
+          font-size: 20px;
+          @include transition(.4s);
+          &:active {
+            background-color: #ffffff;
+            color: #000000;
+            @include transition(.3s);
+          }
         }
       }
     }
@@ -362,6 +380,8 @@ body,
       }
     }
   }
+
+
 
 
 // ---------------------------------------------------------------------------------------------------- MOBILE PORTFOLIO
@@ -457,6 +477,15 @@ body,
       }
       li:last-child {
         padding-bottom: 16px;
+      }
+    }
+  }
+// ------------------------------------------------------------------------------------------------------- MOBILE PLENER
+  #mobile_plener_page {
+    background-color: #000;
+    .img-container {
+      figure {
+        display: inline-block;
       }
     }
   }
