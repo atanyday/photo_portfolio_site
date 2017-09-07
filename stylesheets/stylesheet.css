@@ -63,40 +63,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 33, ../sass/stylesheet.scss */
+/* line 23, ../sass/stylesheet.scss */
 .list_style, #price_container ul .list_title, #price_container ul .list_title_2, #address_container h2 {
   color: #d0d0d0;
   font-weight: 500;
   padding-top: 30px;
 }
 
-/* line 40, ../sass/stylesheet.scss */
+/* line 30, ../sass/stylesheet.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 41, ../sass/stylesheet.scss */
+/* line 31, ../sass/stylesheet.scss */
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 45, ../sass/stylesheet.scss */
+/* line 35, ../sass/stylesheet.scss */
 .left {
   float: left;
 }
 
-/* line 46, ../sass/stylesheet.scss */
+/* line 36, ../sass/stylesheet.scss */
 .right {
   float: right;
 }
 
-/* line 48, ../sass/stylesheet.scss */
+/* line 38, ../sass/stylesheet.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 53, ../sass/stylesheet.scss */
+/* line 43, ../sass/stylesheet.scss */
+body,
+#mobile_body {
+  font-family: Times;
+}
+
+/* line 48, ../sass/stylesheet.scss */
 #portfolio_container,
 #price_container,
 #contacts_container,
@@ -108,7 +114,7 @@ a:hover {
   display: none;
 }
 
-/* line 67, ../sass/stylesheet.scss */
+/* line 62, ../sass/stylesheet.scss */
 #price_container .col-md-9,
 #contacts_container .col-md-9,
 #address_container .col-md-9 {
@@ -120,7 +126,7 @@ a:hover {
   color: #797979;
 }
 
-/* line 77, ../sass/stylesheet.scss */
+/* line 72, ../sass/stylesheet.scss */
 .active {
   background-color: #ffffff;
   color: #000000;
@@ -131,7 +137,7 @@ a:hover {
   width: 100%;
 }
 
-/* line 86, ../sass/stylesheet.scss */
+/* line 81, ../sass/stylesheet.scss */
 #bg_photo {
   background-image: url(../images/bg_img.jpg);
   background-repeat: no-repeat;
@@ -140,12 +146,12 @@ a:hover {
   background-attachment: local;
 }
 
-/* line 93, ../sass/stylesheet.scss */
+/* line 88, ../sass/stylesheet.scss */
 .logo_img {
   margin-top: 80px;
 }
 @media only screen and (max-width: 1161px) {
-  /* line 93, ../sass/stylesheet.scss */
+  /* line 88, ../sass/stylesheet.scss */
   .logo_img {
     max-width: 90%;
   }
@@ -153,50 +159,50 @@ a:hover {
 
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
-  /* line 102, ../sass/stylesheet.scss */
+  /* line 97, ../sass/stylesheet.scss */
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none;
   }
 
-  /* line 106, ../sass/stylesheet.scss */
+  /* line 101, ../sass/stylesheet.scss */
   .sidebar-nav .navbar ul {
     float: none;
     display: block;
   }
 
-  /* line 110, ../sass/stylesheet.scss */
+  /* line 105, ../sass/stylesheet.scss */
   .sidebar-nav .navbar li {
     float: none;
     display: block;
   }
 
-  /* line 114, ../sass/stylesheet.scss */
+  /* line 109, ../sass/stylesheet.scss */
   .sidebar-nav .navbar li a {
     padding-top: 12px;
     padding-bottom: 12px;
   }
 }
-/* line 119, ../sass/stylesheet.scss */
+/* line 114, ../sass/stylesheet.scss */
 #menu {
   padding-top: 122px;
   padding-bottom: 90px;
   margin-left: 30px;
 }
 @media only screen and (max-width: 991px) {
-  /* line 119, ../sass/stylesheet.scss */
+  /* line 114, ../sass/stylesheet.scss */
   #menu {
     margin-left: 0px;
     padding-bottom: 140px;
   }
 }
-/* line 128, ../sass/stylesheet.scss */
+/* line 123, ../sass/stylesheet.scss */
 #menu li {
   overflow: hidden;
   padding-bottom: 4px;
   text-align: center;
 }
-/* line 132, ../sass/stylesheet.scss */
+/* line 127, ../sass/stylesheet.scss */
 #menu li a {
   font-size: 26px;
   line-height: 50px;
@@ -211,7 +217,7 @@ a:hover {
   -o-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
-/* line 142, ../sass/stylesheet.scss */
+/* line 137, ../sass/stylesheet.scss */
 #menu li a:hover {
   background-color: #ffffff;
   color: #000000;
@@ -221,30 +227,30 @@ a:hover {
   transition: all ease-in-out 0.3s;
 }
 @media only screen and (max-width: 991px) {
-  /* line 132, ../sass/stylesheet.scss */
+  /* line 127, ../sass/stylesheet.scss */
   #menu li a {
     font-size: 20px;
   }
 }
 
-/* line 153, ../sass/stylesheet.scss */
+/* line 148, ../sass/stylesheet.scss */
 .navbar-default {
   background-color: transparent;
   border: none;
 }
 
-/* line 159, ../sass/stylesheet.scss */
+/* line 154, ../sass/stylesheet.scss */
 .wrapper {
   max-width: 100%;
   overflow-y: hidden;
 }
 
-/* line 161, ../sass/stylesheet.scss */
+/* line 156, ../sass/stylesheet.scss */
 .wrapper .scrollable {
   overflow-y: scroll;
 }
 
-/* line 164, ../sass/stylesheet.scss */
+/* line 159, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 {
   max-width: 74%;
   margin-top: 20px;
@@ -252,30 +258,30 @@ a:hover {
   background: rgba(0, 0, 0, 0.9);
   padding: 50px 25px 25px 10px;
 }
-/* line 171, ../sass/stylesheet.scss */
+/* line 166, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .tab-content .scrollable {
   overflow-y: scroll;
   max-height: 665px;
 }
-/* line 175, ../sass/stylesheet.scss */
+/* line 170, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .tab-content figure {
   padding-bottom: 0px;
   margin: 5px;
 }
-/* line 178, ../sass/stylesheet.scss */
+/* line 173, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .tab-content figure img {
   border: 1px solid rgba(255, 255, 255, 0.51);
 }
-/* line 183, ../sass/stylesheet.scss */
+/* line 178, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 #portfolio_nav {
   padding-top: 15px;
 }
-/* line 185, ../sass/stylesheet.scss */
+/* line 180, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 #portfolio_nav li {
   line-height: 34px;
   padding-bottom: 2px;
 }
-/* line 188, ../sass/stylesheet.scss */
+/* line 183, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 #portfolio_nav li a {
   position: relative;
   font-size: 14px;
@@ -293,7 +299,7 @@ a:hover {
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 201, ../sass/stylesheet.scss */
+/* line 196, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 #portfolio_nav li a:hover, #portfolio_container .col-md-9 #portfolio_nav li a.active {
   background-color: #ffffff;
   color: #000000;
@@ -304,80 +310,80 @@ a:hover {
   width: 100%;
 }
 
-/* line 215, ../sass/stylesheet.scss */
+/* line 210, ../sass/stylesheet.scss */
 #price_container {
   font-size: 18px;
 }
-/* line 217, ../sass/stylesheet.scss */
+/* line 212, ../sass/stylesheet.scss */
 #price_container .col-md-9 {
   padding-left: 25px;
 }
-/* line 220, ../sass/stylesheet.scss */
+/* line 215, ../sass/stylesheet.scss */
 #price_container ul {
   text-align: center;
   line-height: 22px;
 }
-/* line 223, ../sass/stylesheet.scss */
+/* line 218, ../sass/stylesheet.scss */
 #price_container ul .list_title {
   font-size: 22px;
   padding-top: 30px;
 }
-/* line 228, ../sass/stylesheet.scss */
+/* line 223, ../sass/stylesheet.scss */
 #price_container ul .list_title_2 {
   font-size: 20px;
   padding-bottom: 10px;
 }
-/* line 233, ../sass/stylesheet.scss */
+/* line 228, ../sass/stylesheet.scss */
 #price_container ul .list_result {
   text-align: left;
   padding-top: 15px;
 }
-/* line 238, ../sass/stylesheet.scss */
+/* line 233, ../sass/stylesheet.scss */
 #price_container p {
   padding-top: 50px;
   padding-bottom: 220px;
 }
 @media only screen and (max-width: 991px) {
-  /* line 238, ../sass/stylesheet.scss */
+  /* line 233, ../sass/stylesheet.scss */
   #price_container p {
     padding-bottom: 150px;
   }
 }
 
-/* line 248, ../sass/stylesheet.scss */
+/* line 243, ../sass/stylesheet.scss */
 #contacts_container {
   line-height: 22px;
   font-size: 18px;
 }
-/* line 251, ../sass/stylesheet.scss */
+/* line 246, ../sass/stylesheet.scss */
 #contacts_container .col-md-9 {
   padding-left: 25px;
 }
-/* line 254, ../sass/stylesheet.scss */
+/* line 249, ../sass/stylesheet.scss */
 #contacts_container #contacts_img_section {
   margin-top: 30px;
   padding-bottom: 310px;
 }
 @media only screen and (max-width: 991px) {
-  /* line 254, ../sass/stylesheet.scss */
+  /* line 249, ../sass/stylesheet.scss */
   #contacts_container #contacts_img_section {
     padding-bottom: 170px;
   }
 }
-/* line 260, ../sass/stylesheet.scss */
+/* line 255, ../sass/stylesheet.scss */
 #contacts_container #contacts_img_section img {
   padding: 0px 25px 25px 0px;
 }
-/* line 263, ../sass/stylesheet.scss */
+/* line 258, ../sass/stylesheet.scss */
 #contacts_container #contacts_img_section p {
   padding-bottom: 20px;
 }
-/* line 267, ../sass/stylesheet.scss */
+/* line 262, ../sass/stylesheet.scss */
 #contacts_container .mail_text {
   text-align: center;
   max-width: 200px;
 }
-/* line 270, ../sass/stylesheet.scss */
+/* line 265, ../sass/stylesheet.scss */
 #contacts_container .mail_text a {
   color: #d0d0d0;
   display: block;
@@ -386,7 +392,7 @@ a:hover {
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 274, ../sass/stylesheet.scss */
+/* line 269, ../sass/stylesheet.scss */
 #contacts_container .mail_text a:hover {
   color: #000;
   background-color: #fff;
@@ -396,24 +402,201 @@ a:hover {
   transition: all ease-in-out 0.1s;
 }
 
-/* line 284, ../sass/stylesheet.scss */
+/* line 279, ../sass/stylesheet.scss */
 #address_container {
   text-align: center;
 }
-/* line 286, ../sass/stylesheet.scss */
+/* line 281, ../sass/stylesheet.scss */
 #address_container h2 {
   padding-top: 0;
   font-size: 22px;
 }
-/* line 291, ../sass/stylesheet.scss */
+/* line 286, ../sass/stylesheet.scss */
 #address_container p {
   font-size: 18px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 296, ../sass/stylesheet.scss */
+/* line 291, ../sass/stylesheet.scss */
 #address_container #map {
   margin: 0 auto;
   width: 100%;
   height: 585px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+====================================================== MOBILE HTML =====================================================
+--------------------------------------------------------------------------------------------------------------------- */
+/* line 304, ../sass/stylesheet.scss */
+#mobile_portfolio_container,
+#mobile_price_container,
+#mobile_contacts_container,
+#mobile_address_container {
+  background-color: #000;
+  font-size: 18px;
+  color: #8b8b8b;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+}
+/* line 314, ../sass/stylesheet.scss */
+#mobile_portfolio_container .mobile_logo_img,
+#mobile_price_container .mobile_logo_img,
+#mobile_contacts_container .mobile_logo_img,
+#mobile_address_container .mobile_logo_img {
+  max-width: 70%;
+  margin-bottom: 5px;
+  padding-top: 16px;
+}
+
+/* line 322, ../sass/stylesheet.scss */
+#mobile_body {
+  background-color: #ffffff;
+}
+/* line 324, ../sass/stylesheet.scss */
+#mobile_body .mobile_logo_img {
+  max-width: 90%;
+  margin-bottom: 35px;
+  padding-top: 16px;
+}
+/* line 329, ../sass/stylesheet.scss */
+#mobile_body #mobile_menu {
+  padding-right: 16px;
+  padding-left: 16px;
+  display: block;
+  padding-top: 0px;
+  margin-bottom: 16px;
+}
+/* line 335, ../sass/stylesheet.scss */
+#mobile_body #mobile_menu li {
+  padding-bottom: 4px;
+  text-align: center;
+}
+/* line 338, ../sass/stylesheet.scss */
+#mobile_body #mobile_menu li a {
+  font-size: 22px;
+  line-height: 50px;
+  color: #fff;
+  background: #000;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.4s;
+  -moz-transition: all ease-in-out 0.4s;
+  -o-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+/* line 346, ../sass/stylesheet.scss */
+#mobile_body #mobile_menu li a:active {
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+/* line 357, ../sass/stylesheet.scss */
+#mobile_body #mobile_price_container ul {
+  line-height: 22px;
+}
+/* line 359, ../sass/stylesheet.scss */
+#mobile_body #mobile_price_container ul .list_title {
+  color: #d0d0d0;
+  font-size: 22px;
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+/* line 365, ../sass/stylesheet.scss */
+#mobile_body #mobile_price_container ul .list_title_2 {
+  color: #d0d0d0;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+/* line 370, ../sass/stylesheet.scss */
+#mobile_body #mobile_price_container ul .list_result {
+  padding-top: 16px;
+}
+/* line 374, ../sass/stylesheet.scss */
+#mobile_body #mobile_price_container p {
+  padding-top: 30px;
+  padding-bottom: 16px;
+  text-align: left;
+}
+/* line 382, ../sass/stylesheet.scss */
+#mobile_body #mobile_contacts_container {
+  text-align: center;
+}
+/* line 384, ../sass/stylesheet.scss */
+#mobile_body #mobile_contacts_container img {
+  padding-bottom: 16px;
+}
+/* line 387, ../sass/stylesheet.scss */
+#mobile_body #mobile_contacts_container .mail_text {
+  max-width: 200px;
+  padding-bottom: 5px;
+  margin: 0 auto;
+}
+/* line 391, ../sass/stylesheet.scss */
+#mobile_body #mobile_contacts_container .mail_text a {
+  color: #d0d0d0;
+  display: block;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+/* line 395, ../sass/stylesheet.scss */
+#mobile_body #mobile_contacts_container .mail_text a:hover {
+  color: #000;
+  background-color: #fff;
+  -webkit-transition: all ease-in-out 0.1s;
+  -moz-transition: all ease-in-out 0.1s;
+  -o-transition: all ease-in-out 0.1s;
+  transition: all ease-in-out 0.1s;
+}
+/* line 402, ../sass/stylesheet.scss */
+#mobile_body #mobile_contacts_container .quote {
+  font-style: italic;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 16px;
+}
+/* line 408, ../sass/stylesheet.scss */
+#mobile_body #mobile_contacts_container p {
+  text-align: left;
+  padding-bottom: 16px;
+}
+/* line 415, ../sass/stylesheet.scss */
+#mobile_body #mobile_address_container {
+  line-height: 22px;
+}
+/* line 417, ../sass/stylesheet.scss */
+#mobile_body #mobile_address_container h2 {
+  color: #d0d0d0;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 423, ../sass/stylesheet.scss */
+#mobile_body #mobile_address_container ul {
+  text-align: left;
+}
+/* line 425, ../sass/stylesheet.scss */
+#mobile_body #mobile_address_container ul .m_studio_title {
+  padding-top: 35px;
+  padding-bottom: 5px;
+}
+/* line 428, ../sass/stylesheet.scss */
+#mobile_body #mobile_address_container ul .m_studio_title a {
+  color: #d0d0d0;
+  font-size: 22px;
+  text-decoration: underline;
+}
+/* line 435, ../sass/stylesheet.scss */
+#mobile_body #mobile_address_container ul .m_tel_studio a {
+  color: #4d618b;
+  text-decoration: underline;
+}
+/* line 440, ../sass/stylesheet.scss */
+#mobile_body #mobile_address_container ul li:last-child {
+  padding-bottom: 16px;
 }

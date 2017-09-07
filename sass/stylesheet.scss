@@ -19,16 +19,6 @@
     @content;
   }
 }
-@mixin change-extra-small-screen {
-  @media only screen and (max-width: 767px) {
-    @content;
-  }
-}
-@mixin change-mobile-screen {
-  @media only screen and (max-width: 480px) {
-    @content;
-  }
-}
 
 .list_style {
   color: #d0d0d0;
@@ -48,6 +38,11 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+
+body,
+#mobile_body {
+  font-family: Times;
 }
 
 #portfolio_container,
@@ -300,4 +295,163 @@ a {
   }
 }
 
-// ---------------------------------------------------------------------------------------------------------------------
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+====================================================== MOBILE HTML =====================================================
+--------------------------------------------------------------------------------------------------------------------- */
+#mobile_portfolio_container,
+#mobile_price_container,
+#mobile_contacts_container,
+#mobile_address_container {
+  background-color: #000;
+  font-size: 18px;
+  color: #8b8b8b;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+  .mobile_logo_img {
+    max-width: 70%;
+    margin-bottom: 5px;
+    padding-top: 16px;
+  }
+}
+
+
+#mobile_body {
+  background-color: #ffffff;
+  .mobile_logo_img {
+    max-width: 90%;
+    margin-bottom: 35px;
+    padding-top: 16px;
+  }
+  #mobile_menu {
+    padding-right: 16px;
+    padding-left: 16px;
+    display: block;
+    padding-top: 0px;
+    margin-bottom: 16px;
+    li {
+      padding-bottom:4px;
+      text-align: center;
+      a {
+        font-size: 22px;
+        line-height: 50px;
+        color: #fff;
+        background: #000;
+        letter-spacing: 1px;
+        cursor: pointer;
+        @include transition(.4s);
+        &:active {
+          background-color: #ffffff;
+          color: #000000;
+          @include transition(.3s);
+        }
+      }
+    }
+  }
+
+// ------------------------------------------------------------------------------------------------------- MOBILE PRICES
+  #mobile_price_container {
+    ul {
+      line-height: 22px;
+      .list_title {
+        color: #d0d0d0;
+        font-size: 22px;
+        padding-top: 16px;
+        padding-bottom: 10px;
+      }
+      .list_title_2 {
+        color: #d0d0d0;
+        font-size: 18px;
+        padding-bottom: 10px;
+      }
+      .list_result {
+        padding-top: 16px;
+      }
+    }
+    p {
+      padding-top: 30px;
+      padding-bottom: 16px;
+      text-align: left;
+      }
+    }
+
+// ----------------------------------------------------------------------------------------------------- MOBILE CONTACTS
+  #mobile_contacts_container {
+    text-align: center;
+    img {
+      padding-bottom: 16px;
+    }
+    .mail_text {
+      max-width: 200px;
+      padding-bottom: 5px;
+      margin: 0 auto;
+      a {
+        color: #d0d0d0;
+        display: block;
+        @include transition(.3s);
+        &:hover {
+          color: #000;
+          background-color: #fff;
+          @include transition(.1s);
+        }
+      }
+    }
+    .quote {
+      font-style: italic;
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 16px;
+    }
+    p {
+      text-align: left;
+      padding-bottom: 16px;
+    }
+  }
+
+// ---------------------------------------------------------------------------------------------------------- MOBILE MAP
+  #mobile_address_container {
+    line-height: 22px;
+    h2 {
+      color: #d0d0d0;
+      font-size: 24px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    ul {
+      text-align: left;
+      .m_studio_title {
+        padding-top: 35px;
+        padding-bottom: 5px;
+        a {
+          color: #d0d0d0;
+          font-size: 22px;
+          text-decoration: underline;
+        }
+      }
+      .m_tel_studio {
+        a {
+          color: #4d618b;
+          text-decoration: underline;
+        }
+      }
+      li:last-child {
+        padding-bottom: 16px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

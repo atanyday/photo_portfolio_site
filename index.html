@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- ----------------------------------------------------------------------------  redirection to mobile version -->
+    <script src="jQuery/jquery-3.1.1.js"></script>
+    <script>
+    $(document).ready(function(){
+      if($(window).width() <= 768) {
+        window.location = "mobile.html";
+      }
+    });
+    </script>
+    <!-- ----------------------------------------------------------------------------------------------------------- -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0">
@@ -13,6 +24,7 @@
     <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
     <!-- Custom CSS -->
     <link href="stylesheets/stylesheet.css" rel="stylesheet">
+
 
 		<!-- Yandex.Maps API -->
 		<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
@@ -393,8 +405,9 @@
         </div>
 
 
-    <!-- jQuery -->
-    <script src="jQuery/jquery-3.1.1.js"></script>
+
+
+
     <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap/js/bootstrap.js"></script>
     <!-- Custom JavaScript -->
