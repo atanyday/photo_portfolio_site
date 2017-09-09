@@ -5,19 +5,19 @@ function gotoPage(param) {
 
     if (url == "#plener") {
         showOnly(portfolio_container, side_bar_elements);
-        showOnly(plener, portfolio_elements);
+        showOnlySlide(plener, portfolio_elements);
     } if (url == "#studio") {
         showOnly(portfolio_container, side_bar_elements);
-        showOnly(studio, portfolio_elements);
+        showOnlySlide(studio, portfolio_elements);
     } if (url == "#report") {
         showOnly(portfolio_container, side_bar_elements);
-        showOnly(report, portfolio_elements);
+        showOnlySlide(report, portfolio_elements);
     } if (url == "#world") {
         showOnly(portfolio_container, side_bar_elements);
-        showOnly(world, portfolio_elements);
+        showOnlySlide(world, portfolio_elements);
     } if (url == "#things") {
         showOnly(portfolio_container, side_bar_elements);
-        showOnly(things, portfolio_elements);
+        showOnlySlide(things, portfolio_elements);
 
     }
     console.log(window.location.hash);
@@ -50,7 +50,18 @@ function showOnly(element_to_show, group){
     });
 
 
-    $(element_to_show).show(500);
+    $(element_to_show).fadeIn(700);
+}
+function showOnlySlide(element_to_show, group){
+
+    group.forEach(function(element_to_hide){
+        if (element_to_hide != element_to_show){
+            $(element_to_hide).hide();
+        }
+    });
+
+
+    $(element_to_show).slideDown(400);
 }
 
 $("#portfolio_link").click(function(){
@@ -93,12 +104,14 @@ var portfolio_elements = [plener, studio, report, world, things];
 //  showOnly(things, portfolio_elements);
 //});
 
-// ------------------------------------------------------------------------------------------------ USE HASH OF THE PAGE
 
+// ------------------------------------------------------------------------------------------------ USE HASH OF THE PAGE
 
 window.onhashchange = gotoPage;
 
 $( document ).ready(function() {
     gotoPage(window.location.hash);
-    //console.log( "ready!" );
 });
+
+
+// ------------------------------------------------------------------------------------------------------------- GALLERY

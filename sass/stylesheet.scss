@@ -42,8 +42,9 @@ a {
 
 body,
 #mobile_body {
-  font-family: Times;
+  font-family: Times, sans-serif;
 }
+
 
 #portfolio_container,
 #price_container,
@@ -56,18 +57,15 @@ body,
   display: none;
 }
 
-#price_container,
-#contacts_container,
-#address_container {
-  .col-md-9 {
-    max-width: 74%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background: rgba(0, 0, 0, 0.90);
-    padding: 50px 25px 25px 10px;
-    color: #797979;
-  }
+.col-md-9 {
+  max-width: 74%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.90);
+  padding: 50px 25px 25px 10px;
+  color: #797979;
 }
+
 
 .selected {
   background-color: #ffffff;
@@ -83,7 +81,6 @@ body,
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  background-attachment: local;
 }
 .logo_img {
   margin-top: 80px;
@@ -200,6 +197,10 @@ body,
             @include transition(.1s);
             width: 100%;
           }
+          @include change-small-screen {
+            font-size: 12px;
+            padding-right: 2px;
+          }
         }
       }
     }
@@ -207,6 +208,7 @@ body,
 }
 
 // ----------------------------------------------------------------------------------------------------- PRICE CONTAINER
+
 #price_container {
   font-size: 18px;
   .col-md-9 {
@@ -239,41 +241,43 @@ body,
   }
 }
 
+
 // -------------------------------------------------------------------------------------------------- CONTACTS CONTAINER
-#contacts_container {
-  line-height: 22px;
-  font-size: 18px;
-  .col-md-9 {
-    padding-left: 25px;
-  }
-  #contacts_img_section {
-    margin-top: 30px;
-    padding-bottom: 310px;
-    @include change-small-screen {
-      padding-bottom: 170px;
+  #contacts_container {
+    line-height: 22px;
+    font-size: 18px;
+    .col-md-9 {
+      padding-left: 25px;
     }
-    img {
-      padding: 0px 25px 25px 0px;
+    #contacts_img_section {
+      margin-top: 30px;
+      padding-bottom: 310px;
+      @include change-small-screen {
+        padding-bottom: 170px;
+      }
+      img {
+        padding: 0px 25px 25px 0px;
+      }
+      p {
+        padding-bottom: 20px;
+      }
     }
-    p {
-      padding-bottom: 20px;
-    }
-  }
-  .mail_text {
-    text-align: center;
-    max-width: 200px;
-    a {
-      color: #d0d0d0;
-      display: block;
-      @include transition(.3s);
-      &:hover {
-        color: #000;
-        background-color: #fff;
-        @include transition(.1s);
+    .mail_text {
+      text-align: center;
+      max-width: 200px;
+      a {
+        color: #d0d0d0;
+        display: block;
+        @include transition(.3s);
+        &:hover {
+          color: #000;
+          background-color: #fff;
+          @include transition(.1s);
+        }
       }
     }
   }
-}
+
 
 // --------------------------------------------------------------------------------------------------- ADDRESS CONTAINER
 #address_container {
@@ -493,11 +497,7 @@ body,
 
 
 
-
-
-
-
-
+// ------------------------------------------------------------------------------------------------------------- GALLERY
 
 
 
