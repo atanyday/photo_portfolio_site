@@ -2,258 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="205a0091-e2b2-40da-bd17-009898c28f2b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/plener/p_big_066.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/plener/p_pre_066.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/report/r_big_015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/report/r_pre_015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/studios/s_big_014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/studios/s_big_015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/studios/s_big_016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/studios/s_pre_014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/studios/s_pre_015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/studios/s_pre_016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/things/t_big_013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/things/t_pre_013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/world/w_big_017.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photo/world/w_pre_017.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_001.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_002.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_003.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_003.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_004.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_005.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_006.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_007.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_008.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_009.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_010.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_010.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_011.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_011.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_012.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_012.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_013.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_013.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_014.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_014.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_015.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_015.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_016.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_016.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_017.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_017.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_018.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_018.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_019.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_019.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_020.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_020.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_021.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_021.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_022.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_022.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_023.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_023.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_024.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_024.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_025.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_025.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_026.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_026.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_027.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_027.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_028.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_028.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_029.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_029.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_030.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_030.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_031.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_031.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_032.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_032.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_033.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_033.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_034.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_034.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_035.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_035.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_036.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_036.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_037.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_037.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_038.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_038.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_039.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_039.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_040.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_040.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_041.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_041.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_042.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_042.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_043.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_043.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_044.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_044.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_045.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_045.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_046.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_046.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_047.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_047.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_048.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_048.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_049.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_049.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_050.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_050.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_051.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_051.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_052.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_052.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_053.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_053.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_054.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_054.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_055.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_055.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_056.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_056.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_057.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_057.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_058.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_058.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_059.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_059.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_060.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_060.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_061.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_061.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_062.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_062.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_063.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_063.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_064.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_064.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_065.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_065.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_001.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_002.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_003.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_003.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_004.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_005.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_006.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_007.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_008.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_009.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_010.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_010.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_011.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_011.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_012.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_012.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_013.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_013.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_014.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_014.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_015.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_015.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_016.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_016.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_017.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_017.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_018.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_018.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_019.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_019.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_020.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_020.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_021.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_021.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_022.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_022.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_023.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_023.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_024.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_024.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_025.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_025.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_026.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_026.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_027.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_027.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_028.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_028.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_029.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_029.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_030.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_030.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_031.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_031.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_032.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_032.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_033.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_033.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_034.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_034.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_035.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_035.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_036.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_036.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_037.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_037.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_038.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_038.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_039.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_039.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_040.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_040.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_041.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_041.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_042.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_042.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_043.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_043.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_044.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_044.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_045.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_045.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_046.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_046.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_047.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_047.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_048.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_048.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_049.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_049.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_050.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_050.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_051.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_051.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_052.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_052.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_053.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_053.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_054.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_054.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_055.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_055.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_056.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_056.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_057.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_057.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_058.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_058.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_059.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_059.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_060.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_060.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_061.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_061.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_062.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_062.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_063.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_063.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_064.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_064.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_pre_065.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_pre_065.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_001.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_002.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_003.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_003.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_004.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_005.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_006.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_007.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_008.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_009.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_010.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_010.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_011.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_011.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_012.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_012.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_013.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_013.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_014.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_014.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_001.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_002.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_003.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_003.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_004.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_005.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_006.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_007.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_008.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_009.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_010.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_010.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_011.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_011.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_012.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_012.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_013.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_013.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_pre_014.jpg" afterPath="$PROJECT_DIR$/photo/report/r_pre_014.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_001.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_004.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_005.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_006.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_007.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_008.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_009.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_010.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_010.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_011.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_011.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_012.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_012.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_013.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_013.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_pre_001.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_pre_001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_pre_004.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_pre_004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_pre_005.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_pre_005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_pre_006.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_pre_006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_pre_007.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_pre_007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_pre_008.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_pre_008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_pre_009.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_pre_009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_pre_010.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_pre_010.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_pre_011.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_pre_011.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_pre_012.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_pre_012.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_pre_013.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_pre_013.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_001.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_002.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_003.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_003.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_004.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_005.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_006.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_007.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_008.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_009.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_010.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_010.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_011.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_011.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_012.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_012.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_001.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_002.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_003.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_003.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_004.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_005.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_006.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_007.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_008.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_009.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_010.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_010.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_011.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_011.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_pre_012.jpg" afterPath="$PROJECT_DIR$/photo/things/t_pre_012.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_001.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_002.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_003.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_003.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_004.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_005.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_006.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_007.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_008.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_009.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_010.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_010.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_011.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_011.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_012.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_012.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_013.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_013.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_014.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_014.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_015.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_015.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_016.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_016.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_001.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_002.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_003.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_003.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_004.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_005.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_006.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_007.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_008.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_009.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_010.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_010.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_011.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_011.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_012.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_012.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_013.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_013.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_014.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_014.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_015.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_015.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_pre_016.jpg" afterPath="$PROJECT_DIR$/photo/world/w_pre_016.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_address.html" afterPath="$PROJECT_DIR$/m_address.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_contacts.html" afterPath="$PROJECT_DIR$/m_contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_index.html" afterPath="$PROJECT_DIR$/m_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_plener.html" afterPath="$PROJECT_DIR$/m_plener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_prices.html" afterPath="$PROJECT_DIR$/m_prices.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_report.html" afterPath="$PROJECT_DIR$/m_report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_studio.html" afterPath="$PROJECT_DIR$/m_studio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_things.html" afterPath="$PROJECT_DIR$/m_things.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_world.html" afterPath="$PROJECT_DIR$/m_world.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mobile.js" afterPath="$PROJECT_DIR$/js/mobile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheets/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/stylesheet.scss" afterPath="$PROJECT_DIR$/sass/stylesheet.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -277,21 +38,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="m_world.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/m_world.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60106385">
-              <caret line="239" column="43" selection-start-line="239" selection-start-column="43" selection-end-line="239" selection-end-column="43" />
+            <state vertical-scroll-proportion="-3.75">
+              <caret line="65" column="52" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0392158">
-              <caret line="471" column="3" selection-start-line="471" selection-start-column="3" selection-end-line="471" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.4481383">
+              <caret line="399" column="31" selection-start-line="399" selection-start-column="31" selection-end-line="399" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.222222">
+              <caret line="5840" column="0" selection-start-line="5840" selection-start-column="0" selection-end-line="5857" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -318,24 +89,26 @@
         <option value="$PROJECT_DIR$/mobile_contacts.html" />
         <option value="$PROJECT_DIR$/mobile_address.html" />
         <option value="$PROJECT_DIR$/mobile_portfolio.html" />
-        <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/mobile.html" />
-        <option value="$PROJECT_DIR$/js/mobile.js" />
-        <option value="$PROJECT_DIR$/m_address.html" />
         <option value="$PROJECT_DIR$/plener.html" />
-        <option value="$PROJECT_DIR$/m_plener.html" />
-        <option value="$PROJECT_DIR$/m_studio.html" />
-        <option value="$PROJECT_DIR$/m_report.html" />
-        <option value="$PROJECT_DIR$/m_things.html" />
-        <option value="$PROJECT_DIR$/m_world.html" />
-        <option value="$PROJECT_DIR$/m_index.html" />
         <option value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js" />
         <option value="$PROJECT_DIR$/Responsive-Photo-Gallery-with-jQuery-and-Bootstrap-3/demo.html" />
         <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/sass/stylesheet.scss" />
+        <option value="$PROJECT_DIR$/m_contacts.html" />
+        <option value="$PROJECT_DIR$/m_prices.html" />
+        <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/m_index.html" />
+        <option value="$PROJECT_DIR$/m_address.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/mobile.js" />
+        <option value="$PROJECT_DIR$/m_world.html" />
+        <option value="$PROJECT_DIR$/m_report.html" />
+        <option value="$PROJECT_DIR$/m_studio.html" />
+        <option value="$PROJECT_DIR$/m_things.html" />
+        <option value="$PROJECT_DIR$/m_plener.html" />
+        <option value="$PROJECT_DIR$/sass/stylesheet.scss" />
       </list>
     </option>
   </component>
@@ -404,7 +177,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photo_portfolio_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photo_portfolio_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photo_portfolio_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photo_portfolio_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -418,21 +223,23 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="js.eslint.nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.test.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/photo_portfolio_site/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="m_index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/photo_portfolio_site/m_index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="m_things.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/photo_portfolio_site/m_things.html">
       <method />
     </configuration>
     <configuration default="false" name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/photo_portfolio_site/test.html">
       <method />
     </configuration>
     <configuration default="false" name="demo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/photo_portfolio_site/demo.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="m_address.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/photo_portfolio_site/m_address.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -474,19 +281,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.m_index.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.m_things.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.demo.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.m_contacts.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.demo.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.m_address.html" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.demo.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.m_things.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.m_index.html" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.m_address.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.demo.html" />
       </list>
     </recent_temporary>
   </component>
@@ -636,71 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34487534">
-          <caret line="3516" column="24" selection-start-line="3516" selection-start-column="24" selection-end-line="3516" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63829786">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29388297">
-          <caret line="31" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23195876">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24202128">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.458333">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_prices.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5416665">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_plener.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.666667">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -717,30 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m_things.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37101063">
-          <caret line="29" column="136" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="136" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_world.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30319148">
-          <caret line="29" column="138" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="138" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_studio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32180852">
-          <caret line="29" column="120" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -749,18 +466,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
+    <entry file="file://$PROJECT_DIR$/m_prices.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0392158">
-          <caret line="471" column="3" selection-start-line="471" selection-start-column="3" selection-end-line="471" selection-end-column="3" />
+        <state vertical-scroll-proportion="-31.083334">
+          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53856385">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53856385">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15463917">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42068964">
+          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60106385">
-          <caret line="239" column="43" selection-start-line="239" selection-start-column="43" selection-end-line="239" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.33909574">
+          <caret line="503" column="22" selection-start-line="503" selection-start-column="22" selection-end-line="503" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_things.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35904256">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_studio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35904256">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35904256">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_plener.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31914893">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_world.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="65" column="52" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.222222">
+          <caret line="5840" column="0" selection-start-line="5840" selection-start-column="0" selection-end-line="5857" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4481383">
+          <caret line="399" column="31" selection-start-line="399" selection-start-column="31" selection-end-line="399" selection-end-column="31" />
           <folding />
         </state>
       </provider>

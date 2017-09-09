@@ -6,10 +6,10 @@ $(document).ready(function(){
 
         if (isCollapsed){
             $(".dropdown-portfolio").css('display', 'block');
-            $(".dropdown-portfolio").animate( {height: '280px'}, 1000);
+            $(".dropdown-portfolio").animate( {height: '280px'}, 500);
             isCollapsed = false;
         } else {
-            $(".dropdown-portfolio").animate( {height: '0px'}, 1000, null, function(){
+            $(".dropdown-portfolio").animate( {height: '0px'}, 500, null, function(){
                 $(".dropdown-portfolio").css('display', 'none');
             });
             isCollapsed = true;

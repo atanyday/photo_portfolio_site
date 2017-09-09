@@ -19,6 +19,12 @@
     @content;
   }
 }
+@mixin change-xs-screen {
+  @media only screen and (max-width: 400px) {
+    @content;
+  }
+}
+
 
 .list_style {
   color: #d0d0d0;
@@ -330,8 +336,8 @@ body,
     padding-top: 16px;
   }
 }
-
-#mobile_body {
+// -------------------------------------------------------------------------------------------------- MOBILE MAIN SCREEN
+#mobile_body_main {
   background-image: url(../images/m_bg_white.jpg);
   background-repeat: no-repeat;
   background-size: auto;
@@ -366,7 +372,7 @@ body,
       }
     }
     li {
-      padding-bottom:4px;
+      padding-bottom: 4px;
       text-align: center;
       a {
         font-size: 24px;
@@ -384,13 +390,52 @@ body,
       }
     }
   }
-
-
-
+}
+// -------------------------------------------------------------------------------------------------------- MOBILE PAGES
+#mobile_body {
+  background-image: url(../images/m_bg_black.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left top;
+  background-attachment: fixed;
+  .modal-dialog {
+    margin: 5px auto;
+  }
+  .modal-body,
+  .modal-header {
+    background-color: #000000;
+  }
+  .close {
+    color: #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+  }
+  .close:hover,
+  .close:focus {
+    color: #bebebe;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .mobile_logo_img {
+    max-width: 90%;
+    margin-bottom: 35px;
+    padding-top: 16px;
+  }
 
 // ---------------------------------------------------------------------------------------------------- MOBILE PORTFOLIO
-  #mobile_portfolio_container {
-
+  #mobile_portfolio_page {
+      img {
+        @include change-xs-screen {
+          max-width: 160px !important;
+        }
+      }
+    .carousel-inner {
+      img {
+        @include change-xs-screen {
+          max-width: 100% !important;
+        }
+      }
+    }
   }
 
 // ------------------------------------------------------------------------------------------------------- MOBILE PRICES
@@ -498,6 +543,12 @@ body,
 
 
 // ------------------------------------------------------------------------------------------------------------- GALLERY
+//.carousel-inner {
+//  width: 800px;
+//}
+//.modal-content {
+//  width: 834px;
+//}
 
 
 
