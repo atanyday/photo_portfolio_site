@@ -18,13 +18,23 @@
 @mixin change-xs-screen {
   @media only screen and (max-width: 400px) {
     @content;
-  }
+  } 
 }
 .list_style {
   color: #d0d0d0;
   font-weight: 500;
   padding-top: 30px;
 }
+$blackColor: #000000;
+$whiteColor: #ffffff;
+$greyColor: #d0d0d0;
+$fontSize18: 18px;
+$fontSize20: 20px;
+$fontSize22: 22px;
+$fontSize24: 24px;
+$paddingTop16: 16px;
+$paddingBottom16: 16px;
+
 // -------------------------------------------------------------------------------------------------------------- GLOBAL
 .no-margin {margin: 0 !important}
 .no-gutter > [class*='col-'] {
@@ -61,10 +71,16 @@ body,
   color: #797979;
 }
 .selected {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: $whiteColor;
+  color: $blackColor;
   @include transition(.1s);
   width: 100%;
+}
+#mobile_body_main #mobile_menu .dropdown-portfolio li:active,
+#mobile_body_main #mobile_menu .dropdown-portfolio li a:active {
+  background-color: $whiteColor !important;
+  color: $blackColor !important;
+  @include transition(.2s);
 }
 // ------------------------------------------------------------------------------------------------------------- SIDEBAR
 
@@ -115,20 +131,20 @@ body,
     a {
       font-size: 26px;
       line-height: 50px;
-      color: #fff;
-      background: #000;
+      color: $whiteColor;
+      background: $blackColor;
       text-decoration: none;
       position: relative;
       letter-spacing: 1px;
       cursor: pointer;
       @include transition(.4s);
       &:hover {
-        background-color: #ffffff;
-        color: #000000;
+        background-color: $whiteColor;
+        color: $blackColor;
         @include transition(.3s);
       }
       @include change-small-screen {
-        font-size: 20px;
+        font-size: $fontSize20;
       }
     }
   }
@@ -174,14 +190,14 @@ body,
           height:28px;
           line-height:26px;
           padding: 1px 10px 0 9px;
-          color:#fff;
+          color: $whiteColor;
           display:inline-block;
           width: 100%;
           @include transition(.3s);
           &:hover,
           &.active {
-            background-color: #ffffff;
-            color: #000000;
+            background-color: $whiteColor;
+            color: $blackColor;
             @include transition(.1s);
             width: 100%;
           }
@@ -196,7 +212,7 @@ body,
 }
 // ----------------------------------------------------------------------------------------------------- PRICE CONTAINER
 #price_container {
-  font-size: 18px;
+  font-size: $fontSize18;
   .col-md-9 {
     padding-left: 25px;
   }
@@ -205,12 +221,12 @@ body,
     line-height: 22px;
     .list_title {
       @extend .list_style;
-      font-size: 22px;
+      font-size: $fontSize22;
       padding-top: 30px;
     }
     .list_title_2 {
       @extend .list_style;
-      font-size: 20px;
+      font-size: $fontSize20;
       padding-bottom: 10px;
     }
     .list_result {
@@ -229,7 +245,7 @@ body,
 // -------------------------------------------------------------------------------------------------- CONTACTS CONTAINER
   #contacts_container {
     line-height: 22px;
-    font-size: 18px;
+    font-size: $fontSize18;
     .col-md-9 {
       padding-left: 25px;
     }
@@ -250,12 +266,12 @@ body,
       text-align: center;
       max-width: 200px;
       a {
-        color: #d0d0d0;
+        color: $greyColor;
         display: block;
         @include transition(.3s);
         &:hover {
-          color: #000;
-          background-color: #fff;
+          color: $blackColor;
+          background-color: $whiteColor;
           @include transition(.1s);
         }
       }
@@ -267,10 +283,10 @@ body,
   h2 {
     @extend .list_style;
     padding-top: 0;
-    font-size: 22px;
+    font-size: $fontSize22;
   }
   p {
-    font-size: 18px;
+    font-size: $fontSize18;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -297,7 +313,7 @@ body,
   background-size: auto;
   background-position: left top;
   background-attachment: fixed;
-  font-size: 18px;
+  font-size: $fontSize18;
   color: #8b8b8b;
   padding-left: 16px;
   padding-right: 16px;
@@ -305,7 +321,7 @@ body,
   .mobile_logo_img {
     max-width: 70%;
     margin-bottom: 5px;
-    padding-top: 16px;
+    padding-top: $paddingTop16;
   }
 }
 // -------------------------------------------------------------------------------------------------- MOBILE MAIN SCREEN
@@ -318,7 +334,7 @@ body,
   .mobile_logo_img {
     max-width: 90%;
     margin-bottom: 35px;
-    padding-top: 16px;
+    padding-top: $paddingTop16;
   }
   #mobile_menu {
     padding-right: 16px;
@@ -326,38 +342,38 @@ body,
     display: block;
     padding-top: 0px;
     margin-bottom: 16px;
-    .dropdown-portfolio {
-      display: none;
-      height: 0px;
-      li {
-        background-color: #000;
-        margin: 0px 48px 1px 48px;
-        a {
-          font-size: 20px;
-          @include transition(.4s);
-          &:active {
-            background-color: #ffffff;
-            color: #000000;
-            @include transition(.3s);
-          }
-        }
-      }
-    }
     li {
       padding-bottom: 4px;
       text-align: center;
       a {
-        font-size: 24px;
+        font-size: $fontSize24;
         line-height: 50px;
-        color: #fff;
-        background: #000;
+        color: $whiteColor;
+        background: $blackColor;
         letter-spacing: 1px;
         cursor: pointer;
         @include transition(.4s);
         &:active {
-          background-color: #ffffff;
-          color: #000000;
+          background-color: $whiteColor;
+          color: $blackColor;
           @include transition(.3s);
+        }
+      }
+    }
+    .dropdown-portfolio {
+      display: none;
+      height: 0px;
+      li {
+        background-color: $blackColor;
+        margin: 0px 48px 1px 48px;
+        @include transition(.3s);
+        a {
+          font-size: $fontSize20;
+          background: transparent !important;
+          &:active,
+          &:hover {
+            color: $blackColor;
+          }
         }
       }
     }
@@ -375,10 +391,10 @@ body,
   }
   .modal-body,
   .modal-header {
-    background-color: #000000;
+    background-color: $blackColor;
   }
   .close {
-    color: #fff;
+    color: $whiteColor;
     filter: alpha(opacity=20);
     opacity: .2;
   }
@@ -391,7 +407,7 @@ body,
   .mobile_logo_img {
     max-width: 90%;
     margin-bottom: 35px;
-    padding-top: 16px;
+    padding-top: $paddingTop16;
   }
 // ---------------------------------------------------------------------------------------------------- MOBILE PORTFOLIO
   #mobile_portfolio_page {
@@ -413,23 +429,23 @@ body,
     ul {
       line-height: 22px;
       .list_title {
-        color: #d0d0d0;
-        font-size: 22px;
-        padding-top: 16px;
+        color: $greyColor;
+        font-size: $fontSize22;
+        padding-top: $paddingTop16;
         padding-bottom: 10px;
       }
       .list_title_2 {
-        color: #d0d0d0;
-        font-size: 18px;
+        color: $greyColor;
+        font-size: $fontSize18;
         padding-bottom: 10px;
       }
       .list_result {
-        padding-top: 16px;
+        padding-top: $paddingTop16;
       }
     }
     p {
       padding-top: 30px;
-      padding-bottom: 16px;
+      padding-bottom: $paddingBottom16;
       text-align: left;
       }
     }
@@ -437,20 +453,20 @@ body,
   #mobile_contacts_container {
     text-align: center;
     img {
-      padding-bottom: 16px;
+      padding-bottom: $paddingBottom16;
     }
     .mail_text {
       max-width: 200px;
       padding-bottom: 5px;
       margin: 0 auto;
       a {
-        color: #d0d0d0;
+        color: $greyColor;
         display: block;
         text-decoration: underline;
         @include transition(.3s);
         &:hover {
-          color: #000;
-          background-color: #fff;
+          color: $blackColor;
+          background-color: $whiteColor;
           @include transition(.1s);
         }
       }
@@ -459,19 +475,19 @@ body,
       font-style: italic;
       text-align: center;
       padding-top: 25px;
-      padding-bottom: 16px;
+      padding-bottom: $paddingBottom16;
     }
     p {
       text-align: left;
-      padding-bottom: 16px;
+      padding-bottom: $paddingBottom16;
     }
   }
 // ---------------------------------------------------------------------------------------------------------- MOBILE MAP
   #mobile_address_container {
     line-height: 22px;
     h2 {
-      color: #d0d0d0;
-      font-size: 24px;
+      color: $greyColor;
+      font-size: $fontSize24;
       padding-top: 10px;
       padding-bottom: 10px;
     }
@@ -481,8 +497,8 @@ body,
         padding-top: 35px;
         padding-bottom: 5px;
         a {
-          color: #d0d0d0;
-          font-size: 22px;
+          color: $greyColor;
+          font-size: $fontSize22;
           text-decoration: underline;
         }
       }
@@ -493,13 +509,13 @@ body,
         }
       }
       li:last-child {
-        padding-bottom: 16px;
+        padding-bottom: $paddingBottom16;
       }
     }
   }
 // ------------------------------------------------------------------------------------------------------- MOBILE PLENER
   #mobile_plener_page {
-    background-color: #000;
+    background-color: $blackColor;
     .img-container {
       figure {
         display: inline-block;
@@ -507,10 +523,28 @@ body,
     }
   }
 }
-
-// ------------------------------------------------------------------------------------------------------------- GALLERY
-
-
+/* ---------------------------------------------------------------------------------------------------------------------
+====================================================== GALLERY =====================================================
+--------------------------------------------------------------------------------------------------------------------- */
+body .modal-dialog {
+  max-width: 100%;
+  width: auto !important;
+  display: inline-block;
+}
+.modal.in{
+   text-align: center;
+ }
+.modal-body {
+  padding: 7px !important;
+}
+@media only screen and (min-width: 769px) {
+  .modal-header {
+    display: none;
+  }
+  .modal-dialog {
+     margin: 20px auto !important;
+   }
+}
 
 
 

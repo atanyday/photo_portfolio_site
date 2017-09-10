@@ -2,8 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="205a0091-e2b2-40da-bd17-009898c28f2b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_006.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_006.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_007.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_007.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_008.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_008.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_011.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_011.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_015.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_015.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_027.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_027.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_031.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_031.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_047.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_047.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_055.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_055.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_059.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_059.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_060.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_060.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/plener/p_big_064.jpg" afterPath="$PROJECT_DIR$/photo/plener/p_big_064.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_001.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_001.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_002.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_002.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_003.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_003.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_008.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_008.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_009.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_009.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_010.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_010.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_011.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_011.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/report/r_big_012.jpg" afterPath="$PROJECT_DIR$/photo/report/r_big_012.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_000.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_000.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_001.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_001.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_002.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_002.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/studios/s_big_003.jpg" afterPath="$PROJECT_DIR$/photo/studios/s_big_003.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_002.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_002.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_003.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_003.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_005.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_005.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_006.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_006.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_010.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_010.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_011.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_011.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/things/t_big_012.jpg" afterPath="$PROJECT_DIR$/photo/things/t_big_012.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_000.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_000.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_001.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_001.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_002.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_002.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_003.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_003.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_004.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_004.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_005.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_005.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_006.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_006.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_007.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_007.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_008.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_008.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_009.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_009.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_010.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_010.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_011.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_011.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_012.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_012.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_014.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_014.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_015.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_015.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/world/w_big_016.jpg" afterPath="$PROJECT_DIR$/photo/world/w_big_016.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_studio.html" afterPath="$PROJECT_DIR$/m_studio.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheets/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/stylesheet.scss" afterPath="$PROJECT_DIR$/sass/stylesheet.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -30,28 +76,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.372549">
-              <caret line="266" column="79" selection-start-line="266" selection-start-column="79" selection-end-line="266" selection-end-column="79" />
+            <state vertical-scroll-proportion="-30.083334">
+              <caret line="534" column="98" selection-start-line="534" selection-start-column="98" selection-end-line="534" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-319.375">
-              <caret line="511" column="0" selection-start-line="511" selection-start-column="0" selection-end-line="511" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5167526">
-              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.41379312">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -90,14 +126,14 @@
         <option value="$PROJECT_DIR$/m_index.html" />
         <option value="$PROJECT_DIR$/m_address.html" />
         <option value="$PROJECT_DIR$/js/mobile.js" />
-        <option value="$PROJECT_DIR$/m_world.html" />
         <option value="$PROJECT_DIR$/m_report.html" />
-        <option value="$PROJECT_DIR$/m_studio.html" />
         <option value="$PROJECT_DIR$/m_things.html" />
         <option value="$PROJECT_DIR$/m_plener.html" />
-        <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/sass/stylesheet.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/m_studio.html" />
+        <option value="$PROJECT_DIR$/m_world.html" />
+        <option value="$PROJECT_DIR$/sass/stylesheet.scss" />
       </list>
     </option>
   </component>
@@ -166,7 +202,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,7 +422,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="65" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -455,7 +491,7 @@
         <state vertical-scroll-proportion="0.53856385">
           <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -481,14 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m_studio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35904256">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m_report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35904256">
@@ -500,14 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31914893">
           <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_world.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-40.625">
-          <caret line="65" column="52" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,26 +547,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.632732">
+          <caret line="132" column="49" selection-start-line="132" selection-start-column="49" selection-end-line="132" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_studio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="51" column="79" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_world.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37898937">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.372549">
-          <caret line="266" column="79" selection-start-line="266" selection-start-column="79" selection-end-line="266" selection-end-column="79" />
+        <state vertical-scroll-proportion="-30.083334">
+          <caret line="534" column="98" selection-start-line="534" selection-start-column="98" selection-end-line="534" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-319.375">
-          <caret line="511" column="0" selection-start-line="511" selection-start-column="0" selection-end-line="511" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5167526">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.41379312">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding />
         </state>
       </provider>
