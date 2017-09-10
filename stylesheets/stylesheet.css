@@ -63,46 +63,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 29, ../sass/stylesheet.scss */
+/* line 23, ../sass/stylesheet.scss */
 .list_style, #price_container ul .list_title, #price_container ul .list_title_2, #address_container h2 {
   color: #d0d0d0;
   font-weight: 500;
   padding-top: 30px;
 }
 
-/* line 36, ../sass/stylesheet.scss */
+/* line 29, ../sass/stylesheet.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 37, ../sass/stylesheet.scss */
+/* line 30, ../sass/stylesheet.scss */
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 41, ../sass/stylesheet.scss */
+/* line 34, ../sass/stylesheet.scss */
 .left {
   float: left;
 }
 
-/* line 42, ../sass/stylesheet.scss */
+/* line 35, ../sass/stylesheet.scss */
 .right {
   float: right;
 }
 
-/* line 44, ../sass/stylesheet.scss */
+/* line 37, ../sass/stylesheet.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 49, ../sass/stylesheet.scss */
+/* line 41, ../sass/stylesheet.scss */
 body,
 #mobile_body {
   font-family: Times, sans-serif;
 }
 
-/* line 55, ../sass/stylesheet.scss */
+/* line 45, ../sass/stylesheet.scss */
 #portfolio_container,
 #price_container,
 #contacts_container,
@@ -114,7 +114,7 @@ body,
   display: none;
 }
 
-/* line 66, ../sass/stylesheet.scss */
+/* line 55, ../sass/stylesheet.scss */
 .col-md-9 {
   max-width: 74%;
   margin-top: 20px;
@@ -124,7 +124,7 @@ body,
   color: #797979;
 }
 
-/* line 76, ../sass/stylesheet.scss */
+/* line 63, ../sass/stylesheet.scss */
 .selected {
   background-color: #ffffff;
   color: #000000;
@@ -135,7 +135,7 @@ body,
   width: 100%;
 }
 
-/* line 85, ../sass/stylesheet.scss */
+/* line 71, ../sass/stylesheet.scss */
 #bg_photo {
   background-image: url(../images/bg_img.jpg);
   background-repeat: no-repeat;
@@ -143,12 +143,12 @@ body,
   background-position: center top;
 }
 
-/* line 91, ../sass/stylesheet.scss */
+/* line 77, ../sass/stylesheet.scss */
 .logo_img {
   margin-top: 80px;
 }
 @media only screen and (max-width: 1161px) {
-  /* line 91, ../sass/stylesheet.scss */
+  /* line 77, ../sass/stylesheet.scss */
   .logo_img {
     max-width: 90%;
   }
@@ -156,50 +156,50 @@ body,
 
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
-  /* line 100, ../sass/stylesheet.scss */
+  /* line 85, ../sass/stylesheet.scss */
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none;
   }
 
-  /* line 104, ../sass/stylesheet.scss */
+  /* line 89, ../sass/stylesheet.scss */
   .sidebar-nav .navbar ul {
     float: none;
     display: block;
   }
 
-  /* line 108, ../sass/stylesheet.scss */
+  /* line 93, ../sass/stylesheet.scss */
   .sidebar-nav .navbar li {
     float: none;
     display: block;
   }
 
-  /* line 112, ../sass/stylesheet.scss */
+  /* line 97, ../sass/stylesheet.scss */
   .sidebar-nav .navbar li a {
     padding-top: 12px;
     padding-bottom: 12px;
   }
 }
-/* line 117, ../sass/stylesheet.scss */
+/* line 102, ../sass/stylesheet.scss */
 #menu {
   padding-top: 122px;
   padding-bottom: 90px;
   margin-left: 30px;
 }
 @media only screen and (max-width: 991px) {
-  /* line 117, ../sass/stylesheet.scss */
+  /* line 102, ../sass/stylesheet.scss */
   #menu {
     margin-left: 0px;
     padding-bottom: 140px;
   }
 }
-/* line 126, ../sass/stylesheet.scss */
+/* line 111, ../sass/stylesheet.scss */
 #menu li {
   overflow: hidden;
   padding-bottom: 4px;
   text-align: center;
 }
-/* line 130, ../sass/stylesheet.scss */
+/* line 115, ../sass/stylesheet.scss */
 #menu li a {
   font-size: 26px;
   line-height: 50px;
@@ -214,7 +214,7 @@ body,
   -o-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
-/* line 140, ../sass/stylesheet.scss */
+/* line 125, ../sass/stylesheet.scss */
 #menu li a:hover {
   background-color: #ffffff;
   color: #000000;
@@ -224,30 +224,30 @@ body,
   transition: all ease-in-out 0.3s;
 }
 @media only screen and (max-width: 991px) {
-  /* line 130, ../sass/stylesheet.scss */
+  /* line 115, ../sass/stylesheet.scss */
   #menu li a {
     font-size: 20px;
   }
 }
 
-/* line 151, ../sass/stylesheet.scss */
+/* line 136, ../sass/stylesheet.scss */
 .navbar-default {
   background-color: transparent;
   border: none;
 }
 
-/* line 157, ../sass/stylesheet.scss */
+/* line 141, ../sass/stylesheet.scss */
 .wrapper {
   max-width: 100%;
   overflow-y: hidden;
 }
 
-/* line 159, ../sass/stylesheet.scss */
+/* line 142, ../sass/stylesheet.scss */
 .wrapper .scrollable {
   overflow-y: scroll;
 }
 
-/* line 162, ../sass/stylesheet.scss */
+/* line 144, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 {
   max-width: 74%;
   margin-top: 20px;
@@ -255,30 +255,30 @@ body,
   background: rgba(0, 0, 0, 0.9);
   padding: 50px 25px 25px 10px;
 }
-/* line 169, ../sass/stylesheet.scss */
+/* line 151, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .tab-content .scrollable {
   overflow-y: scroll;
   max-height: 665px;
 }
-/* line 173, ../sass/stylesheet.scss */
+/* line 155, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .tab-content figure {
   padding-bottom: 0px;
   margin: 5px;
 }
-/* line 176, ../sass/stylesheet.scss */
+/* line 158, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 .tab-content figure img {
   border: 1px solid rgba(255, 255, 255, 0.51);
 }
-/* line 181, ../sass/stylesheet.scss */
+/* line 163, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 #portfolio_nav {
   padding-top: 15px;
 }
-/* line 183, ../sass/stylesheet.scss */
+/* line 165, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 #portfolio_nav li {
   line-height: 34px;
   padding-bottom: 2px;
 }
-/* line 186, ../sass/stylesheet.scss */
+/* line 168, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 #portfolio_nav li a {
   position: relative;
   font-size: 14px;
@@ -296,7 +296,7 @@ body,
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 199, ../sass/stylesheet.scss */
+/* line 181, ../sass/stylesheet.scss */
 #portfolio_container .col-md-9 #portfolio_nav li a:hover, #portfolio_container .col-md-9 #portfolio_nav li a.active {
   background-color: #ffffff;
   color: #000000;
@@ -307,87 +307,87 @@ body,
   width: 100%;
 }
 @media only screen and (max-width: 991px) {
-  /* line 186, ../sass/stylesheet.scss */
+  /* line 168, ../sass/stylesheet.scss */
   #portfolio_container .col-md-9 #portfolio_nav li a {
     font-size: 12px;
     padding-right: 2px;
   }
 }
 
-/* line 218, ../sass/stylesheet.scss */
+/* line 198, ../sass/stylesheet.scss */
 #price_container {
   font-size: 18px;
 }
-/* line 220, ../sass/stylesheet.scss */
+/* line 200, ../sass/stylesheet.scss */
 #price_container .col-md-9 {
   padding-left: 25px;
 }
-/* line 223, ../sass/stylesheet.scss */
+/* line 203, ../sass/stylesheet.scss */
 #price_container ul {
   text-align: center;
   line-height: 22px;
 }
-/* line 226, ../sass/stylesheet.scss */
+/* line 206, ../sass/stylesheet.scss */
 #price_container ul .list_title {
   font-size: 22px;
   padding-top: 30px;
 }
-/* line 231, ../sass/stylesheet.scss */
+/* line 211, ../sass/stylesheet.scss */
 #price_container ul .list_title_2 {
   font-size: 20px;
   padding-bottom: 10px;
 }
-/* line 236, ../sass/stylesheet.scss */
+/* line 216, ../sass/stylesheet.scss */
 #price_container ul .list_result {
   text-align: left;
   padding-top: 15px;
 }
-/* line 241, ../sass/stylesheet.scss */
+/* line 221, ../sass/stylesheet.scss */
 #price_container p {
   padding-top: 50px;
   padding-bottom: 220px;
 }
 @media only screen and (max-width: 991px) {
-  /* line 241, ../sass/stylesheet.scss */
+  /* line 221, ../sass/stylesheet.scss */
   #price_container p {
     padding-bottom: 150px;
   }
 }
 
-/* line 252, ../sass/stylesheet.scss */
+/* line 230, ../sass/stylesheet.scss */
 #contacts_container {
   line-height: 22px;
   font-size: 18px;
 }
-/* line 255, ../sass/stylesheet.scss */
+/* line 233, ../sass/stylesheet.scss */
 #contacts_container .col-md-9 {
   padding-left: 25px;
 }
-/* line 258, ../sass/stylesheet.scss */
+/* line 236, ../sass/stylesheet.scss */
 #contacts_container #contacts_img_section {
   margin-top: 30px;
   padding-bottom: 310px;
 }
 @media only screen and (max-width: 991px) {
-  /* line 258, ../sass/stylesheet.scss */
+  /* line 236, ../sass/stylesheet.scss */
   #contacts_container #contacts_img_section {
     padding-bottom: 170px;
   }
 }
-/* line 264, ../sass/stylesheet.scss */
+/* line 242, ../sass/stylesheet.scss */
 #contacts_container #contacts_img_section img {
   padding: 0px 25px 25px 0px;
 }
-/* line 267, ../sass/stylesheet.scss */
+/* line 245, ../sass/stylesheet.scss */
 #contacts_container #contacts_img_section p {
   padding-bottom: 20px;
 }
-/* line 271, ../sass/stylesheet.scss */
+/* line 249, ../sass/stylesheet.scss */
 #contacts_container .mail_text {
   text-align: center;
   max-width: 200px;
 }
-/* line 274, ../sass/stylesheet.scss */
+/* line 252, ../sass/stylesheet.scss */
 #contacts_container .mail_text a {
   color: #d0d0d0;
   display: block;
@@ -396,7 +396,7 @@ body,
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 278, ../sass/stylesheet.scss */
+/* line 256, ../sass/stylesheet.scss */
 #contacts_container .mail_text a:hover {
   color: #000;
   background-color: #fff;
@@ -406,22 +406,22 @@ body,
   transition: all ease-in-out 0.1s;
 }
 
-/* line 289, ../sass/stylesheet.scss */
+/* line 265, ../sass/stylesheet.scss */
 #address_container {
   text-align: center;
 }
-/* line 291, ../sass/stylesheet.scss */
+/* line 267, ../sass/stylesheet.scss */
 #address_container h2 {
   padding-top: 0;
   font-size: 22px;
 }
-/* line 296, ../sass/stylesheet.scss */
+/* line 272, ../sass/stylesheet.scss */
 #address_container p {
   font-size: 18px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 301, ../sass/stylesheet.scss */
+/* line 277, ../sass/stylesheet.scss */
 #address_container #map {
   margin: 0 auto;
   width: 100%;
@@ -431,7 +431,7 @@ body,
 /* ---------------------------------------------------------------------------------------------------------------------
 ====================================================== MOBILE HTML =====================================================
 --------------------------------------------------------------------------------------------------------------------- */
-/* line 314, ../sass/stylesheet.scss */
+/* line 286, ../sass/stylesheet.scss */
 #mobile_portfolio_container,
 #mobile_price_container,
 #mobile_contacts_container,
@@ -452,7 +452,7 @@ body,
   padding-right: 16px;
   text-align: center;
 }
-/* line 333, ../sass/stylesheet.scss */
+/* line 305, ../sass/stylesheet.scss */
 #mobile_portfolio_container .mobile_logo_img,
 #mobile_price_container .mobile_logo_img,
 #mobile_contacts_container .mobile_logo_img,
@@ -467,7 +467,7 @@ body,
   padding-top: 16px;
 }
 
-/* line 340, ../sass/stylesheet.scss */
+/* line 312, ../sass/stylesheet.scss */
 #mobile_body_main {
   background-image: url(../images/m_bg_white.jpg);
   background-repeat: no-repeat;
@@ -475,13 +475,13 @@ body,
   background-position: left top;
   background-attachment: fixed;
 }
-/* line 346, ../sass/stylesheet.scss */
+/* line 318, ../sass/stylesheet.scss */
 #mobile_body_main .mobile_logo_img {
   max-width: 90%;
   margin-bottom: 35px;
   padding-top: 16px;
 }
-/* line 351, ../sass/stylesheet.scss */
+/* line 323, ../sass/stylesheet.scss */
 #mobile_body_main #mobile_menu {
   padding-right: 16px;
   padding-left: 16px;
@@ -489,17 +489,17 @@ body,
   padding-top: 0px;
   margin-bottom: 16px;
 }
-/* line 357, ../sass/stylesheet.scss */
+/* line 329, ../sass/stylesheet.scss */
 #mobile_body_main #mobile_menu .dropdown-portfolio {
   display: none;
   height: 0px;
 }
-/* line 360, ../sass/stylesheet.scss */
+/* line 332, ../sass/stylesheet.scss */
 #mobile_body_main #mobile_menu .dropdown-portfolio li {
   background-color: #000;
   margin: 0px 48px 1px 48px;
 }
-/* line 363, ../sass/stylesheet.scss */
+/* line 335, ../sass/stylesheet.scss */
 #mobile_body_main #mobile_menu .dropdown-portfolio li a {
   font-size: 20px;
   -webkit-transition: all ease-in-out 0.4s;
@@ -507,7 +507,7 @@ body,
   -o-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
-/* line 366, ../sass/stylesheet.scss */
+/* line 338, ../sass/stylesheet.scss */
 #mobile_body_main #mobile_menu .dropdown-portfolio li a:active {
   background-color: #ffffff;
   color: #000000;
@@ -516,12 +516,12 @@ body,
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 374, ../sass/stylesheet.scss */
+/* line 346, ../sass/stylesheet.scss */
 #mobile_body_main #mobile_menu li {
   padding-bottom: 4px;
   text-align: center;
 }
-/* line 377, ../sass/stylesheet.scss */
+/* line 349, ../sass/stylesheet.scss */
 #mobile_body_main #mobile_menu li a {
   font-size: 24px;
   line-height: 50px;
@@ -534,7 +534,7 @@ body,
   -o-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
-/* line 385, ../sass/stylesheet.scss */
+/* line 357, ../sass/stylesheet.scss */
 #mobile_body_main #mobile_menu li a:active {
   background-color: #ffffff;
   color: #000000;
@@ -544,7 +544,7 @@ body,
   transition: all ease-in-out 0.3s;
 }
 
-/* line 395, ../sass/stylesheet.scss */
+/* line 367, ../sass/stylesheet.scss */
 #mobile_body {
   background-image: url(../images/m_bg_black.jpg);
   background-repeat: no-repeat;
@@ -552,88 +552,88 @@ body,
   background-position: left top;
   background-attachment: fixed;
 }
-/* line 401, ../sass/stylesheet.scss */
+/* line 373, ../sass/stylesheet.scss */
 #mobile_body .modal-dialog {
   margin: 5px auto;
 }
-/* line 404, ../sass/stylesheet.scss */
+/* line 376, ../sass/stylesheet.scss */
 #mobile_body .modal-body,
 #mobile_body .modal-header {
   background-color: #000000;
 }
-/* line 408, ../sass/stylesheet.scss */
+/* line 380, ../sass/stylesheet.scss */
 #mobile_body .close {
   color: #fff;
   filter: alpha(opacity=20);
   opacity: .2;
 }
-/* line 413, ../sass/stylesheet.scss */
+/* line 385, ../sass/stylesheet.scss */
 #mobile_body .close:hover,
 #mobile_body .close:focus {
   color: #bebebe;
   filter: alpha(opacity=50);
   opacity: .5;
 }
-/* line 419, ../sass/stylesheet.scss */
+/* line 391, ../sass/stylesheet.scss */
 #mobile_body .mobile_logo_img {
   max-width: 90%;
   margin-bottom: 35px;
   padding-top: 16px;
 }
 @media only screen and (max-width: 400px) {
-  /* line 427, ../sass/stylesheet.scss */
+  /* line 398, ../sass/stylesheet.scss */
   #mobile_body #mobile_portfolio_page img {
     max-width: 160px !important;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 433, ../sass/stylesheet.scss */
+  /* line 404, ../sass/stylesheet.scss */
   #mobile_body #mobile_portfolio_page .carousel-inner img {
     max-width: 100% !important;
   }
 }
-/* line 443, ../sass/stylesheet.scss */
+/* line 413, ../sass/stylesheet.scss */
 #mobile_body #mobile_price_container ul {
   line-height: 22px;
 }
-/* line 445, ../sass/stylesheet.scss */
+/* line 415, ../sass/stylesheet.scss */
 #mobile_body #mobile_price_container ul .list_title {
   color: #d0d0d0;
   font-size: 22px;
   padding-top: 16px;
   padding-bottom: 10px;
 }
-/* line 451, ../sass/stylesheet.scss */
+/* line 421, ../sass/stylesheet.scss */
 #mobile_body #mobile_price_container ul .list_title_2 {
   color: #d0d0d0;
   font-size: 18px;
   padding-bottom: 10px;
 }
-/* line 456, ../sass/stylesheet.scss */
+/* line 426, ../sass/stylesheet.scss */
 #mobile_body #mobile_price_container ul .list_result {
   padding-top: 16px;
 }
-/* line 460, ../sass/stylesheet.scss */
+/* line 430, ../sass/stylesheet.scss */
 #mobile_body #mobile_price_container p {
   padding-top: 30px;
   padding-bottom: 16px;
   text-align: left;
 }
-/* line 468, ../sass/stylesheet.scss */
+/* line 437, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container {
   text-align: center;
 }
-/* line 470, ../sass/stylesheet.scss */
+/* line 439, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container img {
   padding-bottom: 16px;
 }
-/* line 473, ../sass/stylesheet.scss */
+/* line 442, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container .mail_text {
   max-width: 200px;
   padding-bottom: 5px;
   margin: 0 auto;
 }
-/* line 477, ../sass/stylesheet.scss */
+/* line 446, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container .mail_text a {
   color: #d0d0d0;
   display: block;
@@ -643,7 +643,7 @@ body,
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 482, ../sass/stylesheet.scss */
+/* line 451, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container .mail_text a:hover {
   color: #000;
   background-color: #fff;
@@ -652,58 +652,58 @@ body,
   -o-transition: all ease-in-out 0.1s;
   transition: all ease-in-out 0.1s;
 }
-/* line 489, ../sass/stylesheet.scss */
+/* line 458, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container .quote {
   font-style: italic;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 16px;
 }
-/* line 495, ../sass/stylesheet.scss */
+/* line 464, ../sass/stylesheet.scss */
 #mobile_body #mobile_contacts_container p {
   text-align: left;
   padding-bottom: 16px;
 }
-/* line 502, ../sass/stylesheet.scss */
+/* line 470, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container {
   line-height: 22px;
 }
-/* line 504, ../sass/stylesheet.scss */
+/* line 472, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container h2 {
   color: #d0d0d0;
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 510, ../sass/stylesheet.scss */
+/* line 478, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container ul {
   text-align: left;
 }
-/* line 512, ../sass/stylesheet.scss */
+/* line 480, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container ul .m_studio_title {
   padding-top: 35px;
   padding-bottom: 5px;
 }
-/* line 515, ../sass/stylesheet.scss */
+/* line 483, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container ul .m_studio_title a {
   color: #d0d0d0;
   font-size: 22px;
   text-decoration: underline;
 }
-/* line 522, ../sass/stylesheet.scss */
+/* line 490, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container ul .m_tel_studio a {
   color: #4d618b;
   text-decoration: underline;
 }
-/* line 527, ../sass/stylesheet.scss */
+/* line 495, ../sass/stylesheet.scss */
 #mobile_body #mobile_address_container ul li:last-child {
   padding-bottom: 16px;
 }
-/* line 533, ../sass/stylesheet.scss */
+/* line 501, ../sass/stylesheet.scss */
 #mobile_body #mobile_plener_page {
   background-color: #000;
 }
-/* line 536, ../sass/stylesheet.scss */
+/* line 504, ../sass/stylesheet.scss */
 #mobile_body #mobile_plener_page .img-container figure {
   display: inline-block;
 }

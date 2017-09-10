@@ -1,14 +1,10 @@
 @import "compass", "compass/reset", "compass/css3/font-face", "media-queries", "compass/css3/background-size", "compass/css3/border-radius", "compass/css3/transition";
-
-//@include font-face("???", font-files("???.ttf"));
-
 @mixin transition($time) {
   -webkit-transition: all ease-in-out $time;
   -moz-transition: all ease-in-out $time;
   -o-transition: all ease-in-out $time;
   transition: all ease-in-out $time;
 }
-
 @mixin change-large-screen {
   @media only screen and (max-width: 1161px) {
     @content;
@@ -24,14 +20,11 @@
     @content;
   }
 }
-
-
 .list_style {
   color: #d0d0d0;
   font-weight: 500;
   padding-top: 30px;
 }
-
 // -------------------------------------------------------------------------------------------------------------- GLOBAL
 .no-margin {margin: 0 !important}
 .no-gutter > [class*='col-'] {
@@ -45,13 +38,10 @@ a {
     text-decoration: none;
   }
 }
-
 body,
 #mobile_body {
   font-family: Times, sans-serif;
 }
-
-
 #portfolio_container,
 #price_container,
 #contacts_container,
@@ -62,7 +52,6 @@ body,
 #things {
   display: none;
 }
-
 .col-md-9 {
   max-width: 74%;
   margin-top: 20px;
@@ -71,15 +60,12 @@ body,
   padding: 50px 25px 25px 10px;
   color: #797979;
 }
-
-
 .selected {
   background-color: #ffffff;
   color: #000000;
   @include transition(.1s);
   width: 100%;
 }
-
 // ------------------------------------------------------------------------------------------------------------- SIDEBAR
 
 #bg_photo {
@@ -94,7 +80,6 @@ body,
     max-width: 90%;
   }
 }
-
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
@@ -152,12 +137,9 @@ body,
   background-color: transparent;
   border: none;
 }
-
 // ------------------------------------------------------------------------------------------------- PORTFOLIO CONTAINER
 .wrapper {max-width:100%; overflow-y: hidden;}
-
 .wrapper .scrollable {overflow-y: scroll;}
-
 #portfolio_container {
   .col-md-9 {
     max-width: 74%;
@@ -212,9 +194,7 @@ body,
     }
   }
 }
-
 // ----------------------------------------------------------------------------------------------------- PRICE CONTAINER
-
 #price_container {
   font-size: 18px;
   .col-md-9 {
@@ -246,8 +226,6 @@ body,
     }
   }
 }
-
-
 // -------------------------------------------------------------------------------------------------- CONTACTS CONTAINER
   #contacts_container {
     line-height: 22px;
@@ -283,8 +261,6 @@ body,
       }
     }
   }
-
-
 // --------------------------------------------------------------------------------------------------- ADDRESS CONTAINER
 #address_container {
   text-align: center;
@@ -304,10 +280,6 @@ body,
     height: 585px;
   }
 }
-
-
-
-
 /* ---------------------------------------------------------------------------------------------------------------------
 ====================================================== MOBILE HTML =====================================================
 --------------------------------------------------------------------------------------------------------------------- */
@@ -421,7 +393,6 @@ body,
     margin-bottom: 35px;
     padding-top: 16px;
   }
-
 // ---------------------------------------------------------------------------------------------------- MOBILE PORTFOLIO
   #mobile_portfolio_page {
       img {
@@ -437,7 +408,6 @@ body,
       }
     }
   }
-
 // ------------------------------------------------------------------------------------------------------- MOBILE PRICES
   #mobile_price_container {
     ul {
@@ -463,7 +433,6 @@ body,
       text-align: left;
       }
     }
-
 // ----------------------------------------------------------------------------------------------------- MOBILE CONTACTS
   #mobile_contacts_container {
     text-align: center;
@@ -497,7 +466,6 @@ body,
       padding-bottom: 16px;
     }
   }
-
 // ---------------------------------------------------------------------------------------------------------- MOBILE MAP
   #mobile_address_container {
     line-height: 22px;
@@ -540,15 +508,10 @@ body,
   }
 }
 
-
-
 // ------------------------------------------------------------------------------------------------------------- GALLERY
-//.carousel-inner {
-//  width: 800px;
-//}
-//.modal-content {
-//  width: 834px;
-//}
+
+
+
 
 
 
