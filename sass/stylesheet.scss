@@ -18,7 +18,7 @@
 @mixin change-xs-screen {
   @media only screen and (max-width: 400px) {
     @content;
-  } 
+  }
 }
 .list_style {
   color: #d0d0d0;
@@ -34,7 +34,6 @@ $fontSize22: 22px;
 $fontSize24: 24px;
 $paddingTop16: 16px;
 $paddingBottom16: 16px;
-
 // -------------------------------------------------------------------------------------------------------------- GLOBAL
 .no-margin {margin: 0 !important}
 .no-gutter > [class*='col-'] {
