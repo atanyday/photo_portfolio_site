@@ -35,6 +35,9 @@ $fontSize24: 24px;
 $paddingTop16: 16px;
 $paddingBottom16: 16px;
 // -------------------------------------------------------------------------------------------------------------- GLOBAL
+html {
+  height: 100%
+}
 .no-margin {margin: 0 !important}
 .no-gutter > [class*='col-'] {
   padding-right:0;
