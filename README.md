@@ -9,4 +9,4 @@ Created using Bootstrap 3, SASS/Compass.
 <br>
 => [Demo video](https://youtu.be/6gmvS4eOrLw)
 <br>
-![Picture](main.jpg)
+![Picture](main.jpg) 
